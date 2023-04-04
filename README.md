@@ -1,5 +1,6 @@
 # zoteroTUL2022
-citation style for Technical University of Liberec for Zotero
+
+citation style for Technical University of Liberec for Zotero according to ČSN ISO 690:2022
 
 version author-date (Harvard)
 
@@ -10,4 +11,3 @@ Kniha - tištěná a elektronická
 Kapitola z knihy - tištěná a elektronická
 
 Článek z časopisu - tištěný i elektronický
-
