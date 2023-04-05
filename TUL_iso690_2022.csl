@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-04T15:52:53+00:00</updated>
+    <updated>2023-04-04T17:29:53+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -182,7 +182,7 @@
   <macro name="title">
     <choose>
       <if type="thesis map motion_picture song manuscript broadcast report" match="any">
-        <text variable="title" font-style="italic" suffix=". "/>
+        <text variable="title" font-style="italic"/>
         <text macro="medium-online"/>
       </if>
       <else-if type="book" match="any">
@@ -715,11 +715,10 @@
         <else-if type="thesis">
           <group delimiter=". " suffix=". ">
             <text macro="title"/>
+            <text macro="genre"/>
             <group delimiter=" ">
               <text macro="publisher-place"/>
-              <text macro="accessed"/>
             </group>
-            <text macro="genre"/>
             <text macro="publisher"/>
             <text macro="url-chapter"/>
           </group>
