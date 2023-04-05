@@ -13,3 +13,5 @@ Kapitola z knihy - tištěná a elektronická
 Článek z časopisu - tištěný i elektronický
 
 Vysokoškolská kvalifikační práce - tištěná i elektronická
+
+Legislativa - tištěná i elektronická
