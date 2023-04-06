@@ -458,8 +458,8 @@
           <else-if match="any" variable="PMCID">
             <text variable="PMCID" prefix="PMCID "/>
           </else-if>
-           <else-if match="any" variable="arXiv">
-            <text variable="arXiv" prefix="arXiv "/>
+           <else-if match="any" variable="ARXIV">
+            <text variable="ARXIV" prefix="arXiv "/>
           </else-if>
         </choose>
       </if>
