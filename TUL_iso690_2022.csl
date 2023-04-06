@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-06T06:15:33+00:00</updated>
+    <updated>2023-04-06T17:11:48+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -269,19 +269,9 @@
   </macro>
   <macro name="genre">
     <choose>
-      <if type="map">
-        <choose>
-          <if variable="genre">
-            <text variable="genre" prefix="[" suffix="]"/>
-          </if>
-          <else>
-            <text value="map" prefix="[" suffix="]"/>
-          </else>
-        </choose>
-      </if>
-      <else>
+      <if variable="genre">
         <text variable="genre"/>
-      </else>
+      </if>
     </choose>
   </macro>
   <macro name="date">
@@ -458,7 +448,7 @@
           <else-if match="any" variable="PMCID">
             <text variable="PMCID" prefix="PMCID "/>
           </else-if>
-           <else-if match="any" variable="ARXIV">
+          <else-if match="any" variable="ARXIV">
             <text variable="ARXIV" prefix="arXiv "/>
           </else-if>
         </choose>
