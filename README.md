@@ -15,3 +15,5 @@ Kapitola z knihy - tištěná a elektronická
 Vysokoškolská kvalifikační práce - tištěná i elektronická
 
 Legislativa - tištěná i elektronická
+
+Normy - tištěné i elektronické
