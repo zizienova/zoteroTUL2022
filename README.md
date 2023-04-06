@@ -16,4 +16,6 @@ Vysokoškolská kvalifikační práce - tištěná i elektronická
 
 Legislativa - tištěná i elektronická
 
-Normy - tištěné i elektronické
+Norma - tištěná i elektronická
+
+Notový záznam - tištěný
