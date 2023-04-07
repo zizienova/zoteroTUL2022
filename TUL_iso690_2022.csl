@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-07T14:29:35+00:00</updated>
+    <updated>2023-04-07T17:27:21+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -228,15 +228,6 @@
         <group delimiter=". ">
           <text variable="title"/>
           <text macro="medium-online"/>
-          <choose>
-            <if match="any" variable="container-title">
-              <text variable="container-title" font-style="italic"/>
-            </if>
-            <else-if match="any" variable="publisher">
-              <text variable="publisher" font-style="italic"/>
-            </else-if>
-          </choose>
-          <text macro="datum-noviny"/>
         </group>
       </else-if>
       <else-if type="webpage post-weblog" match="any">
@@ -518,11 +509,6 @@
       <group delimiter=", ">
         <text variable="volume" text-case="lowercase" prefix="roč. "/>
         <text variable="issue" prefix="č. "/>
-        <choose>
-          <if match="any" variable="language">
-            <text variable="first-reference-note-number"/>
-          </if>
-        </choose>
       </group>
       <text macro="collection"/>
       <text variable="page" prefix="s. "/>
@@ -660,9 +646,25 @@
             <text macro="title"/>
             <group delimiter=" ">
               <group delimiter=", ">
-                <text macro="issue-article"/>
+                <choose>
+                  <if match="any" variable="volume issue">
+                    <choose>
+                      <if match="any" variable="container-title">
+                        <text variable="container-title" font-style="italic"/>
+                      </if>
+                    </choose>
+                    <text macro="issue-article"/>
+                  </if>
+                </choose>
               </group>
             </group>
+            <choose>
+              <if match="none" variable="volume issue">
+                <text variable="container-title" font-style="italic"/>
+                <text macro="datum-noviny"/>
+                <text macro="issue-article"/>
+              </if>
+            </choose>
             <text macro="isbn"/>
             <text macro="url-chapter"/>
           </group>
