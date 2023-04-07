@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-07T11:44:54+00:00</updated>
+    <updated>2023-04-07T14:29:35+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -683,6 +683,7 @@
             </group>
             <text macro="isbn"/>
             <text macro="url-chapter"/>
+            <text variable="archive" prefix="Přístup: "/>
           </group>
         </else-if>
         <else-if type="entry entry-dictionary entry-encyclopedia" match="any">
