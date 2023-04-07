@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-06T17:11:48+00:00</updated>
+    <updated>2023-04-07T05:23:03+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -380,7 +380,7 @@
       <if type="report">
         <text variable="collection-title" font-style="italic"/>
       </if>
-      <else-if type="book chapter" match="any">
+      <else-if type="book chapter map" match="any">
         <group delimiter=", ">
           <text variable="collection-title"/>
           <text variable="collection-number"/>
@@ -628,15 +628,12 @@
             <text macro="genre"/>
             <text macro="scale"/>
             <text macro="edition"/>
-            <text macro="secondary-responsability"/>
+            <text macro="collection"/>
             <text macro="publisher-info"/>
-            <group delimiter=" ">
-              <text macro="collection"/>
-              <text macro="accessed"/>
-            </group>
             <text macro="isbn"/>
           </group>
           <text macro="url"/>
+          <text macro="accessed"/>
         </else-if>
         <else-if type="post post-weblog" match="any">
           <group delimiter=". " suffix=". ">
