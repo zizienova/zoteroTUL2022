@@ -12,10 +12,12 @@ Kapitola z knihy - tištěná a elektronická
 
 Článek z časopisu - tištěný i elektronický
 
-Vysokoškolská kvalifikační práce - tištěná i elektronická
+Kvalifikační práce - tištěná i elektronická
 
 Legislativa - tištěná i elektronická
 
 Norma - tištěná i elektronická
 
 Notový záznam - tištěný
+
+Mapa - tištění i elektronická
