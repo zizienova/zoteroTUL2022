@@ -79,8 +79,6 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 - notové záznamy
 
 - mapy
-  
-  
 
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
 
@@ -126,7 +124,7 @@ Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné
 
 Přístup se píše do pole Archiv.
 
-<u>Elektronická kniha</u>:
+###### <u>Elektronická kniha</u>:
 
 Formát se píše do pole Extra ve tvaru medium: webová kniha
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
@@ -139,7 +137,7 @@ Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné
 
 Přístup se píše do pole Archiv.
 
-<u>Kapitola v elektronické knize</u>:
+###### <u>Kapitola v elektronické knize</u>:
 
 Formát se píše do pole Extra ve tvaru medium: webová kniha
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
