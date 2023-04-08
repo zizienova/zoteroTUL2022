@@ -54,7 +54,7 @@ Instituce: [České vysoké učení technické v Praze, Fakulta elektrotechnick�
 
 Datum výroby: od 2023-03 do <mark>?</mark>
 
-###### Licence: [Creative Commons Uveďte původ – Zachovejte licenci](https://creativecommons.org/licenses/by-sa/4.0/)
+###### Licence: [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 
 Použití: pro Technickou univerzitu v Liberci
 
