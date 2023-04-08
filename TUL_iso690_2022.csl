@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-07T17:27:21+00:00</updated>
+    <updated>2023-04-07T18:29:12+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -660,9 +660,20 @@
             </group>
             <choose>
               <if match="none" variable="volume issue">
-                <text variable="container-title" font-style="italic"/>
-                <text macro="datum-noviny"/>
-                <text macro="issue-article"/>
+                <choose>
+                  <if match="any" variable="ISBN">
+                    <group delimiter=", ">
+                      <text variable="container-title" font-style="italic"/>
+                      <text macro="datum-noviny"/>
+                      <text macro="issue-article"/>
+                    </group>
+                  </if>
+                  <else>
+                    <text variable="container-title" font-style="italic"/>
+                    <text macro="datum-noviny"/>
+                    <text macro="issue-article"/>
+                  </else>
+                </choose>
               </if>
             </choose>
             <text macro="isbn"/>
