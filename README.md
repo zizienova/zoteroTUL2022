@@ -79,6 +79,8 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 - notové záznamy
 
 - mapy
+  
+  
 
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
 
@@ -116,7 +118,7 @@ Souběžný název, abstrakt, krátký název, práva, signaturu a další údaj
 
 Pokud u jednotlivých dokumentů nejsou nějaká pole zmíněná, pak to znamená, že vychází z *Metodiky citování, 3. vyd.*  a jejich název odpovídá vzorům v této metodice.
 
-##### Kniha:
+##### <u>Kniha</u>:
 
 Používejte typ položky „Kniha“. 
 
@@ -124,7 +126,12 @@ Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné
 
 Přístup se píše do pole Archiv.
 
-##### Kapitola v knize:
+<u>Elektronická kniha</u>:
+
+Formát se píše do pole Extra ve tvaru medium: webová kniha
+Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
+
+##### <u>Kapitola v knize</u>:
 
 Používejte typ položky „Kapitola knihy“. 
 
@@ -132,7 +139,12 @@ Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné
 
 Přístup se píše do pole Archiv.
 
-##### Článek:
+<u>Kapitola v elektronické knize</u>:
+
+Formát se píše do pole Extra ve tvaru medium: webová kniha
+Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
+
+##### <u>Článek</u>:
 
 Používejte typ položky „Článek v časopise“ nebo „Čánek v novinách“ nebo „Preprint“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
@@ -140,15 +152,17 @@ Přístup se píše do pole Archiv. Pozor při stahování článků z Medviku a
 
 *Upozornění*: U cizojazyčných článků se používá česká terminologie (roč. a č.), terminologie v jazyce článku (vol., no aj.) není aplikována.
 
-##### Kvalifikační práce:
+##### <u>Kvalifikační práce</u>:
 
 Používejte typ položky „Vysokoškolská kvalifikační práce“. 
 
 Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
+Druh kvalifikační práce se píše do pole Typ.
+
 Knihovna a signatura se píší do pole Archiv, ideálně ve tvaru Knihovna X, signatura Y.
 
-##### Legislativa (zákon, vyhláška, věstník):
+##### <u>Legislativa (zákon, vyhláška, věstník)</u>:
 
 Používejte typ položky „Nařízení“. 
 
@@ -160,7 +174,7 @@ Stát a případně orgán státní správy se píše do pole Autor do Příjmen
 
 ISSN nebo ISBN nebo DOI se píše do pole Extra ve tvaru ISSN: 1234-5678.
 
-##### Norma:
+##### <u>Norma</u>:
 
 Používejte typ položky „Standardní“. 
 
@@ -176,7 +190,7 @@ Do pole Extra lze napsat poznámky k dostupnosti (paywall atd.).
 
 *Upozornění*: Toto je nový typ dokumentu, který by měl být přidaný do Zotera cca do 6.5.2023. Pokud ho v nabídce nemáte, pak doporučuji stáhnout si beta verzi Zotera (z https://www.zotero.org/support/beta_builds, nejlépe zip, tedy lokální spuštění). Staženou beta verzi spustit a pak by měla být i v normálním Zoteru položka Standardní. Beta verzi je následně možné smazat.
 
-##### Notový záznam:
+##### <u>Notový záznam</u>:
 
 Používejte typ položky „Kniha“, (cituje se stejně jako kniha). 
 
@@ -188,7 +202,7 @@ Identifikátor ISMN se píše do pole Extra ve tvaru ISMN: 979787
 
 Přístup se píše do pole Archiv.
 
-##### Mapa:
+##### <u>Mapa</u>:
 
 Používejte typ položky „Mapa“. 
 
