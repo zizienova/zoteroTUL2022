@@ -6,7 +6,7 @@ Citační styl pro Technickou univerzitu v Liberci, dle ČSN ISO 690:2022 a Meto
 
 autor-datum (harvardský systém)
 
-<u>Fungují (stav ke dni 2023-04-08)</u>:
+<u>Fungují (stav ke dni 2023-04-09)</u>:
 
 - Kniha - tištěná a elektronická
 
@@ -23,6 +23,8 @@ autor-datum (harvardský systém)
 - Notový záznam - tištěný
 
 - Mapa - tištěná a elektronická
+
+- Patent - elektronický
 
 ## Informace o původu:
 
@@ -80,6 +82,8 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 
 - mapy
 
+- patenty
+
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
 
 Pro následující dokumenty není citační styl nastaven, citace nemusí odpovídat pravidlům: <mark>bude doplněno</mark>.
@@ -99,6 +103,12 @@ Pozor, identifikátor arXiv je nutné psát s velkými písmeny, tedy ARXIV a st
 ##### Mapy:
 
 Mapová edice a předmětná oblast nejsou do stylu zapracovány.
+
+##### Patenty:
+
+Zotero nepracuje s poli Pověřený a Země. Majitele patentu, který se stahuje do pole Pověřený, je třeba okopírovat do pole Přispěvatel. Kód z pole Země je třeba okopírovat do pole Místo.
+Role autora je vyjádřena spojením (vynálezce/vynálezci).
+Pořadí jmen vynálezců je schodné jako u editorů, tedy i první vynálezce je v invertované podobě.
 
 ##### Dostupnost:
 
@@ -213,3 +223,15 @@ Do pole Měřítko se píše číselná hodnota či celá fráze o měřítku (m
 Číslo svazku edice se píše do pole Extra ve formátu collection-number: XXX
 Rozměr mapy se píše do pole Extra ve formátu rozmery: 30 cm × 42 cm
 Přístup se píše do pole Archiv.
+
+##### <u>Patent</u>:
+
+Používejte typ položky „Patent“.
+
+Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+Zotero nepracuje s poli Pověřený a Země. Majitele patentu, který se stahuje do pole Pověřený, je třeba okopírovat do pole Přispěvatel. Kód z pole Země je třeba okopírovat do pole Místo.
+Role autora je vyjádřena spojením (vynálezce/vynálezci).
+Pořadí jmen vynálezců je schodné jako u editorů, tedy i první vynálezce je v invertované podobě.
+
+*Tip*: Patenty se nejlépe stahují z Google Patents (https://patents.google.com/), většinou je nutná jen oprava jmen osob. 
