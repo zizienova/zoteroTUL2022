@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-07T18:29:12+00:00</updated>
+    <updated>2023-04-09T11:10:18+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -45,6 +45,15 @@
       </name>
       <label form="short" plural="never" prefix=" (" suffix=")"/>
     </names>
+  </macro>
+  <macro name="contributor">
+    <names variable="contributor">
+      <name delimiter="; " and="text" delimiter-precedes-last="never" name-as-sort-order="first">
+        <name-part name="given"/>
+        <name-part name="family" text-case="uppercase"/>
+      </name>
+    </names>
+    <text variable="event-place" prefix=" (" suffix=")"/>
   </macro>
   <macro name="editor2">
     <names variable="editor">
@@ -93,18 +102,25 @@
   </macro>
   <macro name="responsability">
     <choose>
-      <if variable="author editor" match="any">
-        <choose>
-          <if variable="author">
-            <text macro="author"/>
-          </if>
-          <else-if match="any" variable="editor">
-            <text macro="editor"/>
-          </else-if>
-        </choose>
+      <if type="patent" match="all" variable="contributor">
+        <text macro="contributor"/>
       </if>
       <else>
-        <text term="anonymous" form="short" text-case="capitalize-all"/>
+        <choose>
+          <if variable="author editor" match="any">
+            <choose>
+              <if variable="author">
+                <text macro="author"/>
+              </if>
+              <else-if match="any" variable="editor">
+                <text macro="editor"/>
+              </else-if>
+            </choose>
+          </if>
+          <else>
+            <text term="anonymous" form="short" text-case="capitalize-all"/>
+          </else>
+        </choose>
       </else>
     </choose>
   </macro>
@@ -244,8 +260,7 @@
         </group>
       </else-if>
       <else-if type="patent interview" match="any">
-        <text variable="title"/>
-        <text macro="medium-online"/>
+        <text variable="title" font-style="italic"/>
       </else-if>
       <else-if type="thesis" match="any">
         <text variable="title"/>
@@ -542,11 +557,32 @@
       </if>
     </choose>
   </macro>
+  <macro name="contributor-citation">
+    <choose>
+      <if type="patent" match="any">
+        <names variable="contributor" suffix=", ">
+          <name form="short">
+            <name-part name="family"/>
+          </name>
+        </names>
+      </if>
+      <else>
+        <text macro="author-citation"/>
+      </else>
+    </choose>
+  </macro>
   <citation and="text" et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" collapse="year" year-suffix-delimiter=", " after-collapse-delimiter="; ">
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
         <group delimiter=" ">
-          <text macro="author-citation"/>
+          <choose>
+            <if type="patent" match="all" variable="contributor">
+              <text macro="contributor-citation"/>
+            </if>
+            <else>
+              <text macro="author-citation"/>
+            </else>
+          </choose>
           <text macro="year-date"/>
         </group>
         <group delimiter=" ">
@@ -817,13 +853,18 @@
           <text macro="url"/>
         </else-if>
         <else-if type="patent">
-          <text macro="title" suffix=". "/>
-          <text macro="publisher-place" suffix=", "/>
-          <text macro="number" suffix=". "/>
-          <text macro="accessed" suffix=". "/>
-          <text macro="collection" suffix=". "/>
-          <text macro="date" suffix=". "/>
-          <text macro="url"/>
+          <group delimiter=". " suffix=".">
+            <text variable="title" font-style="italic"/>
+            <group>
+              <text macro="author"/>
+              <text value=" (vynálezce/vynálezci)"/>
+            </group>
+            <date form="numeric" variable="submitted" prefix="Přihl.: "/>
+            <date form="numeric" variable="issued" prefix="Uděl.: "/>
+            <text variable="number"/>
+            <text macro="url"/>
+            <text variable="note" text-case="capitalize-first"/>
+          </group>
         </else-if>
         <else-if type="personal_communication">
           <group delimiter=". ">
