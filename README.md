@@ -26,6 +26,8 @@ autor-datum (harvardský systém)
 
 - Patent - elektronický
 
+- Poster z konference - elektronický
+
 ## Informace o původu:
 
 ###### Autor 1:
@@ -83,6 +85,8 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 - mapy
 
 - patenty
+
+- postery z konferencí
 
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
 
@@ -239,3 +243,17 @@ Role autora je vyjádřena spojením (vynálezce/vynálezci).
 Pořadí jmen vynálezců je schodné jako u editorů, tedy i první vynálezce je v invertované podobě.
 
 *Tip*: Údaje o patentech se nejlépe stahují z Google Patents (https://patents.google.com/), většinou je nutná pouze oprava jmen osob. 
+
+##### <u>Elektronický poster z konference</u>:
+
+Týká se posterů z konferencí a dalších příspěvků, které jsou přednesené na konferenci, ale nejsou publikované ve sborníku. Publikované postery či příspěvky se citují dle vzoru pro článek.
+
+Používejte typ položky „Konferenční příspěvek“.
+
+Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+
+
+Datum konání konference je ve formátu DD-MM-RRRR.
+
+Formát se píše do pole Extra ve tvaru medium: poster

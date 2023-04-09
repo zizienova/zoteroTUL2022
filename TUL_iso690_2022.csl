@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-09T11:10:18+00:00</updated>
+    <updated>2023-04-09T16:23:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -571,6 +571,13 @@
       </else>
     </choose>
   </macro>
+  <macro name="tvurci-konference">
+    <names variable="editor">
+      <name delimiter="; " and="text" delimiter-precedes-last="never" name-as-sort-order="first">
+        <name-part name="family" text-case="capitalize-first"/>
+      </name>
+    </names>
+  </macro>
   <citation and="text" et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" collapse="year" year-suffix-delimiter=", " after-collapse-delimiter="; ">
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
@@ -765,19 +772,36 @@
         </else-if>
         <else-if type="paper-conference">
           <group delimiter=". " suffix=". ">
-            <text macro="title"/>
-            <text macro="genre"/>
-            <group delimiter=" ">
-              <group delimiter=", ">
-                <text macro="publisher-info"/>
-                <text macro="page"/>
-              </group>
-              <text macro="accessed"/>
+            <text variable="title" text-case="capitalize-first"/>
+            <text macro="medium-online"/>
+            <group>
+              <text value="In: "/>
+              <text macro="tvurci-konference" text-case="capitalize-first" suffix=". "/>
+              <choose>
+                <if match="any" variable="publisher-place">
+                  <text variable="event-title" text-case="capitalize-first" font-style="italic"/>
+                </if>
+                <else>
+                  <group delimiter=", ">
+                    <text variable="event-title" text-case="capitalize-first" font-style="italic"/>
+                    <date form="numeric" variable="issued"/>
+                  </group>
+                </else>
+              </choose>
             </group>
-            <text macro="collection"/>
+            <group delimiter=", ">
+              <text variable="publisher-place" text-case="capitalize-first"/>
+              <choose>
+                <if match="any" variable="publisher-place">
+                  <date form="numeric" variable="issued"/>
+                </if>
+              </choose>
+            </group>
+            <text variable="publisher" text-case="capitalize-first"/>
             <text macro="isbn"/>
+            <text variable="note" text-case="capitalize-first"/>
+            <text macro="url-chapter"/>
           </group>
-          <text macro="url"/>
         </else-if>
         <else-if type="thesis">
           <group delimiter=". " suffix=". ">
