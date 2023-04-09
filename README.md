@@ -224,6 +224,10 @@ Do pole Měřítko se píše číselná hodnota či celá fráze o měřítku (m
 Rozměr mapy se píše do pole Extra ve formátu rozmery: 30 cm × 42 cm
 Přístup se píše do pole Archiv.
 
+###### <u>Elektronická mapa</u>:
+
+Formát mapy (např. satelitní mapa) se píše do pole Typ.
+
 ##### <u>Patent</u>:
 
 Používejte typ položky „Patent“.
@@ -234,4 +238,4 @@ Zotero nepracuje s poli Pověřený a Země. Majitele patentu, který se stahuje
 Role autora je vyjádřena spojením (vynálezce/vynálezci).
 Pořadí jmen vynálezců je schodné jako u editorů, tedy i první vynálezce je v invertované podobě.
 
-*Tip*: Patenty se nejlépe stahují z Google Patents (https://patents.google.com/), většinou je nutná jen oprava jmen osob. 
+*Tip*: Údaje o patentech se nejlépe stahují z Google Patents (https://patents.google.com/), většinou je nutná pouze oprava jmen osob. 
