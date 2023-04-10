@@ -34,6 +34,8 @@ autor-datum (harvardský systém)
 
 - E-mail
 
+- Příspěvek na sociální síti
+
 ## Informace o původu:
 
 ###### Autor 1:
@@ -100,6 +102,8 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 
 - e-maily
 
+- příspěvky na sociálních sítích
+
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
 
 Pro následující dokumenty není citační styl nastaven, citace nemusí odpovídat pravidlům: <mark>bude doplněno</mark>.
@@ -108,7 +112,11 @@ V případě, že potřebujete citovat některý z těchto druhů, pak aplikujte
 
 ### Co citační styl neumí a je tedy nutné upravovat ručně:
 
-Některá pravidla v *Metodice citování, 3. vyd.* nelze naprogramovat. Proto úprava musí probíhat na úrovni metadat uložených v Zoteru nebo pravidla nebyla naprogramována.    
+Některá pravidla v *Metodice citování, 3. vyd.* nelze naprogramovat. Proto úprava musí probíhat na úrovni metadat uložených v Zoteru nebo pravidla nebyla naprogramována. 
+
+##### Čas příspěvku:
+
+Zotero nepracuje s hodinami, v bibliografických citacích příspěvků na sociálních sítích je pouze celé datum bez hodiny a minuty.
 
 ##### Identifikátory:
 
@@ -313,3 +321,15 @@ Distributor se píše do pole Extra ve tvaru publisher: Internet Archive
 Používejte typ položky „Webová stránka“.
 
 V harvardském systému je celé datum uvedené za názvem mailu.
+
+##### <u>Příspěvek na sociální síti</u>:
+
+Používejte typ položky „Příspěvek ve fóru“.
+
+Pokud je k dispozici jméno autora, píše se do pole Autor, v tom případě nick autora se píše do pole Extra ve tvaru nick: @ochranceprav
+
+Pokud není k dispozici jméno autora, pak se do pole Autor píše nick v [ ].
+
+Název sociální sítě se píše do pole Název fóra.
+
+Zotero nepracuje s přesným časem, stačí jen celé datum publikování příspěvku.
