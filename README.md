@@ -30,6 +30,8 @@ autor-datum (harvardský systém)
 
 - Web
 
+- Webová stránka
+
 ## Informace o původu:
 
 ###### Autor 1:
@@ -92,6 +94,8 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 
 - weby
 
+- webové stránky
+
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
 
 Pro následující dokumenty není citační styl nastaven, citace nemusí odpovídat pravidlům: <mark>bude doplněno</mark>.
@@ -120,7 +124,7 @@ Pořadí jmen vynálezců je schodné jako u editorů, tedy i první vynálezce 
 
 ##### Dostupnost:
 
-Distributor není zapracován, je použit jen u webů.
+Distributor není zapracován, je použit jen u webů a webových stránek.
 
 ##### Ročníky a čísla u cizojazyčných článků:
 
@@ -272,9 +276,29 @@ ISSN se píše do pole Extra ve tvaru ISSN: 1234-6789
 
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
 
-Vydání či verze se píší do pole Extra ve tvaru Edition: Version 5.
+Vydání či verze se píší do pole Extra ve tvaru edition: Version 5.
 
 <u>**Pro archivovaný web**</u>:
+
+Datum archivace se píše do pole Extra ve tvaru archivovano: 2023-05-31
+
+Distributor se píše do pole Extra ve tvaru publisher: Internet Archive
+
+##### <u>Webová stránka</u>:
+
+Jako webová stránka je míněna jedna konkrétní online stránka. V bibliografické citaci je tento souhrn vyjádřen termínem „online“.
+
+Používejte typ položky „Webová stránka“.
+
+Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+ISSN se píše do pole Extra ve tvaru ISSN: 1234-6789
+
+Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
+
+Vydání či verze se píší do pole Extra ve tvaru edition: Version 5.
+
+<u><strong>Pro archivovaný web</strong></u>:
 
 Datum archivace se píše do pole Extra ve tvaru archivovano: 2023-05-31
 

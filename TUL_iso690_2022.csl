@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-10T06:45:46+00:00</updated>
+    <updated>2023-04-10T10:35:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -251,7 +251,7 @@
           <choose>
             <if variable="container-title">
               <text variable="title"/>
-              <text variable="container-title" font-style="italic"/>
+              <text variable="container-title" font-style="italic" prefix="In: "/>
             </if>
             <else>
               <text variable="title" font-style="italic"/>
@@ -816,33 +816,60 @@
           </group>
         </else-if>
         <else-if type="webpage">
-          <group delimiter=". " suffix=". ">
-            <text macro="title"/>
-            <choose>
-              <if match="none" variable="container-title">
-                <text value="Webové sídlo"/>
-              </if>
-              <else>
+          <choose>
+            <if match="none" variable="container-title">
+              <group delimiter=". " suffix=". ">
+                <text macro="title"/>
+                <choose>
+                  <if match="none" variable="container-title">
+                    <text value="Webové sídlo"/>
+                  </if>
+                  <else>
+                    <text macro="medium-online"/>
+                  </else>
+                </choose>
+                <text macro="edition"/>
+                <text macro="cele-datum"/>
+                <text macro="isbn"/>
+                <group>
+                  <choose>
+                    <if match="any" variable="archivovano">
+                      <text variable="publisher" prefix="Archivní kopie dostupná z: " suffix=" (distributor), "/>
+                      <text variable="URL" font-style="normal" text-decoration="underline" suffix=". "/>
+                      <text variable="archivovano" prefix="[archivováno " suffix="]"/>
+                    </if>
+                    <else>
+                      <text macro="url"/>
+                    </else>
+                  </choose>
+                </group>
+                <text macro="accessed" prefix=" "/>
+              </group>
+            </if>
+            <else>
+              <group delimiter=". " suffix=".">
+                <text variable="title"/>
                 <text macro="medium-online"/>
-              </else>
-            </choose>
-            <text macro="edition"/>
-            <text macro="cele-datum"/>
-            <text macro="isbn"/>
-            <group>
-              <choose>
-                <if match="any" variable="archivovano">
-                  <text variable="publisher" prefix="Archivní kopie dostupná z: " suffix=" (distributor), "/>
-                  <text variable="URL" font-style="normal" text-decoration="underline" suffix=". "/>
-                  <text variable="archivovano" prefix="[archivováno " suffix="]"/>
-                </if>
-                <else>
-                  <text macro="url"/>
-                </else>
-              </choose>
-            </group>
-            <text macro="accessed" prefix=" "/>
-          </group>
+                <text macro="edition"/>
+                <text macro="cele-datum"/>
+                <text variable="container-title" font-style="italic" prefix="In: "/>
+                <text macro="isbn"/>
+                <group>
+                  <choose>
+                    <if match="any" variable="archivovano">
+                      <text variable="publisher" prefix="Archivní kopie dostupná z: " suffix=" (distributor), "/>
+                      <text variable="URL" font-style="normal" text-decoration="underline" suffix=". "/>
+                      <text variable="archivovano" prefix="[archivováno " suffix="]"/>
+                    </if>
+                    <else>
+                      <text macro="url" text-decoration="none"/>
+                    </else>
+                  </choose>
+                </group>
+                <text macro="accessed"/>
+              </group>
+            </else>
+          </choose>
         </else-if>
         <else-if type="motion_picture" match="any">
           <text macro="title" suffix=". "/>
