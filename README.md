@@ -28,6 +28,8 @@ autor-datum (harvardský systém)
 
 - Poster z konference - elektronický
 
+- Web
+
 ## Informace o původu:
 
 ###### Autor 1:
@@ -88,6 +90,8 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 
 - postery z konferencí
 
+- weby
+
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
 
 Pro následující dokumenty není citační styl nastaven, citace nemusí odpovídat pravidlům: <mark>bude doplněno</mark>.
@@ -116,7 +120,7 @@ Pořadí jmen vynálezců je schodné jako u editorů, tedy i první vynálezce 
 
 ##### Dostupnost:
 
-Distributor není zapracován.
+Distributor není zapracován, je použit jen u webů.
 
 ##### Ročníky a čísla u cizojazyčných článků:
 
@@ -252,8 +256,26 @@ Používejte typ položky „Konferenční příspěvek“.
 
 Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
-
-
 Datum konání konference je ve formátu DD-MM-RRRR.
 
 Formát se píše do pole Extra ve tvaru medium: poster
+
+##### <u>Web</u>:
+
+Jako web je míněn souhrn webových stránek se stejnou doménou, tedy např. všechny stránky spadající pod web Technické univerzity v Liberci **[https://www.tul.cz](https://www.tul.cz)**. V bibliografické citaci je tento souhrn vyjádřen termínem „webové sídlo“.
+
+Používejte typ položky „Webová stránka“.
+
+Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+
+ISSN se píše do pole Extra ve tvaru ISSN: 1234-6789
+
+Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
+
+Vydání či verze se píší do pole Extra ve tvaru Edition: Version 5.
+
+<u>**Pro archivovaný web**</u>:
+
+Datum archivace se píše do pole Extra ve tvaru archivovano: 2023-05-31
+
+Distributor se píše do pole Extra ve tvaru publisher: Internet Archive
