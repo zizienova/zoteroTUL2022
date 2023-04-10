@@ -32,6 +32,8 @@ autor-datum (harvardský systém)
 
 - Webová stránka
 
+- E-mail
+
 ## Informace o původu:
 
 ###### Autor 1:
@@ -95,6 +97,8 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 - weby
 
 - webové stránky
+
+- e-maily
 
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
 
@@ -303,3 +307,9 @@ Vydání či verze se píší do pole Extra ve tvaru edition: Version 5.
 Datum archivace se píše do pole Extra ve tvaru archivovano: 2023-05-31
 
 Distributor se píše do pole Extra ve tvaru publisher: Internet Archive
+
+##### <u>E-mail</u>:
+
+Používejte typ položky „Webová stránka“.
+
+V harvardském systému je celé datum uvedené za názvem mailu.
