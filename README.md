@@ -6,7 +6,7 @@ Citační styl pro Technickou univerzitu v Liberci, dle ČSN ISO 690:2022 a Meto
 
 autor-datum (harvardský systém)
 
-<u>Fungují (stav ke dni 2023-04-09)</u>:
+<u>Fungují (stav ke dni 2023-04-10)</u>:
 
 - Kniha - tištěná a elektronická
 
@@ -100,7 +100,7 @@ V případě, že potřebujete citovat některý z těchto druhů, pak aplikujte
 
 ### Co citační styl neumí a je tedy nutné upravovat ručně:
 
-Některá pravidla v *Metodice citování, 3. vyd.* nelze naprogramovat. Proto úprava musí probíhat na úrovni metadat uložených v Zoteru nebo pravidla nebyla naprogramována. 
+Některá pravidla v *Metodice citování, 3. vyd.* nelze naprogramovat. Proto úprava musí probíhat na úrovni metadat uložených v Zoteru nebo pravidla nebyla naprogramována.    
 
 ##### Identifikátory:
 
