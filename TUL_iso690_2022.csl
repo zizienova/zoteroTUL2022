@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-10T10:35:37+00:00</updated>
+    <updated>2023-04-10T13:16:47+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -578,6 +578,17 @@
       </name>
     </names>
   </macro>
+  <macro name="date-RRRRMMDD">
+    <choose>
+      <if match="any" variable="issued">
+        <date variable="issued">
+          <date-part name="year" suffix="-"/>
+          <date-part name="month" form="numeric-leading-zeros" suffix="-"/>
+          <date-part name="day" form="numeric-leading-zeros"/>
+        </date>
+      </if>
+    </choose>
+  </macro>
   <citation and="text" et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" collapse="year" year-suffix-delimiter=", " after-collapse-delimiter="; ">
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
@@ -939,12 +950,12 @@
           </group>
         </else-if>
         <else-if type="personal_communication">
-          <group delimiter=". ">
+          <group delimiter=". " suffix=".">
             <text macro="title"/>
             <text macro="accessed"/>
-            <text macro="date"/>
+            <text macro="date-RRRRMMDD"/>
             <text macro="url"/>
-            <text value="Osobní komunikace."/>
+            <text value="E-mail [osobní komunikace]"/>
           </group>
         </else-if>
         <else-if type="interview">
