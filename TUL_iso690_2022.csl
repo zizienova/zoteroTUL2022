@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-10T13:16:47+00:00</updated>
+    <updated>2023-04-10T15:49:45+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -210,7 +210,7 @@
         <text variable="title" font-style="italic" suffix=". "/>
         <text macro="medium-online" suffix=". "/>
       </else-if>
-      <else-if type="paper-conference speech post chapter" match="any">
+      <else-if type="paper-conference speech chapter" match="any">
         <group delimiter=". ">
           <text variable="title"/>
           <text macro="medium-online"/>
@@ -259,7 +259,7 @@
           </choose>
         </group>
       </else-if>
-      <else-if type="patent interview" match="any">
+      <else-if type="patent interview post" match="any">
         <text variable="title" font-style="italic"/>
       </else-if>
       <else-if type="thesis" match="any">
@@ -589,6 +589,17 @@
       </if>
     </choose>
   </macro>
+  <macro name="url-post">
+    <choose>
+      <if match="any" variable="container-title">
+        <text variable="container-title" text-case="capitalize-first" prefix="Dostupné z: " suffix=", "/>
+        <text variable="URL" text-decoration="underline"/>
+      </if>
+      <else>
+        <text macro="url"/>
+      </else>
+    </choose>
+  </macro>
   <citation and="text" et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" collapse="year" year-suffix-delimiter=", " after-collapse-delimiter="; ">
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
@@ -683,17 +694,13 @@
         </else-if>
         <else-if type="post post-weblog" match="any">
           <group delimiter=". " suffix=". ">
+            <text variable="nick" prefix="[" suffix="]"/>
             <text macro="title"/>
             <text macro="genre"/>
-            <text macro="edition"/>
-            <group delimiter=" ">
-              <text macro="publisher-info"/>
-              <text macro="accessed"/>
-            </group>
-            <text macro="collection"/>
-            <text macro="isbn"/>
+            <text macro="date-RRRRMMDD"/>
+            <text macro="url-post"/>
+            <text macro="accessed"/>
           </group>
-          <text macro="url"/>
         </else-if>
         <else-if type="article-journal article-magazine article-newspaper article" match="any">
           <group delimiter=". " suffix=". ">
