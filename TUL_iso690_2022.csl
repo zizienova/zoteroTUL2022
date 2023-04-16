@@ -4,10 +4,10 @@
   <info>
     <title>TUL ISO-690:2022 (author-date, Čeština)</title>
     <title-short>TUL 2022 author-date</title-short>
-    <id>http://www.zotero.org/styles/iso-690-2022</id>
+    <id>http://www.zotero.org/styles/TUL-iso-690-2022-harvard</id>
     <link href="http://www.zotero.org/styles/iso-690-2022" rel="self"/>
     <link href="http://www.zotero.org/styles/iso690-author-date-en" rel="template"/>
-    <link href="https://github.com/citation-style-language/styles/issues/149" rel="documentation"/>
+    <link href="https://github.com/zizienova/zoteroTUL2022" rel="documentation"/>
     <author>
       <name>Marta Zizienová</name>
       <email>marta.zizienova@tul.cz</email>
