@@ -6,7 +6,7 @@ Citační styl pro Technickou univerzitu v Liberci, dle ČSN ISO 690:2022 a Meto
 
 autor-datum (harvardský systém)
 
-<u>Fungují (stav ke dni 2023-04-10)</u>:
+<u>Fungují tyto druhy citací (stav ke dni 2023-04-10)</u>:
 
 - Kniha - tištěná a elektronická
 
@@ -35,6 +35,10 @@ autor-datum (harvardský systém)
 - E-mail
 
 - Příspěvek na sociální síti
+  
+  
+  
+  =============================================================
 
 ## Informace o původu:
 
@@ -72,6 +76,10 @@ Použití: pro Technickou univerzitu v Liberci
 
 Důvod vzniku: Zapracování citačního stylu pro Technickou univerzitu v Liberci dle *Metodiky citování, 3. vyd.*, z roku 2023, která vychází z normy ČSN ISO 690:2022.
 
+
+
+=====================================================================
+
 ### Jaké druhy dokumentů lze citovat:
 
 Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a které jsou definované v *Metodice citování, 3. vyd.* Jedná se o:
@@ -103,6 +111,10 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 - e-maily
 
 - příspěvky na sociálních sítích
+  
+  
+  
+  ==================================================================
 
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
 
@@ -110,9 +122,17 @@ Pro následující dokumenty není citační styl nastaven, citace nemusí odpov
 
 V případě, že potřebujete citovat některý z těchto druhů, pak aplikujte princip, že citace by měly dodržovat stejná pravidla a měly by vypadat podobně. Lze použít také některý z připravených druhů dokumentů (viz Jaké druhy dokumentů lze citovat).
 
+
+
+======================================================================
+
 ### Co citační styl neumí a je tedy nutné upravovat ručně:
 
 Některá pravidla v *Metodice citování, 3. vyd.* nelze naprogramovat. Proto úprava musí probíhat na úrovni metadat uložených v Zoteru nebo pravidla nebyla naprogramována. 
+
+##### Ročníky a čísla u cizojazyčných článků:
+
+U cizojazyčných článků se používá česká terminologie (roč. a č.), terminologie v jazyce článku (vol., no aj.) není aplikována.
 
 ##### Čas příspěvku:
 
@@ -124,6 +144,10 @@ Identifikátory, které nejsou v Zoteru definované (tedy ISAN, ISMN, ISRC, ISRN
 
 Pozor, identifikátor arXiv je nutné psát s velkými písmeny, tedy ARXIV a stále do pole Extra, např. ARXIV: 769986765647
 
+##### Dostupnost:
+
+Distributor je použit jen u webů a webových stránek.
+
 ##### Mapy:
 
 Mapová edice a předmětná oblast nejsou do stylu zapracovány.
@@ -132,19 +156,15 @@ Mapová edice a předmětná oblast nejsou do stylu zapracovány.
 
 Zotero nepracuje s poli Pověřený a Země. Majitele patentu, který se stahuje do pole Pověřený, je třeba okopírovat do pole Přispěvatel. Kód z pole Země je třeba okopírovat do pole Místo.
 Role autora je vyjádřena spojením (vynálezce/vynálezci).
-Pořadí jmen vynálezců je schodné jako u editorů, tedy i první vynálezce je v invertované podobě.
-
-##### Dostupnost:
-
-Distributor není zapracován, je použit jen u webů a webových stránek.
-
-##### Ročníky a čísla u cizojazyčných článků:
-
-U cizojazyčných článků se používá česká terminologie (roč. a č.), terminologie v jazyce článku (vol., no aj.) není aplikována.
+Pořadí jmen vynálezců je schodné jako u editorů, tedy i první vynálezce je v invertované podobě. 
 
 ##### Další údaje, které se budou ukládat při stahování metadat:
 
-Souběžný název, abstrakt, krátký název, práva, signaturu a další údaje, které se budou stahovat do Zotera, můžete, ale nemusíte mazat. Tyto údaje by neměly mít na výslednou citaci vliv. Samozřejmě pokud se s údaji nepracuje, je výhodnější je smazat a udržovat tedy metadata vyčištěná.
+Souběžný název, abstrakt, krátký název, práva, signaturu a další údaje, které se budou stahovat do Zotera, můžete, ale nemusíte mazat. Tyto údaje by neměly mít na výslednou citaci vliv. Samozřejmě pokud se s údaji nepracuje, je výhodnější je smazat a udržovat metadata vyčištěná.
+
+
+
+=======================================================================
 
 ### Specifika jednotlivých druhů dokumentů:
 
@@ -310,7 +330,7 @@ Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí b�
 
 Vydání či verze se píší do pole Extra ve tvaru edition: Version 5.
 
-<u><strong>Pro archivovaný web</strong></u>:
+<u><strong>Pro archivovanou webovou stránku</strong></u>:
 
 Datum archivace se píše do pole Extra ve tvaru archivovano: 2023-05-31
 
