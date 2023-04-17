@@ -6,7 +6,7 @@ Citační styl pro Technickou univerzitu v Liberci, dle ČSN ISO 690:2022 a Meto
 
 autor-datum (harvardský systém)
 
-<u>Fungují tyto druhy citací (stav ke dni 2023-04-10)</u>:
+<u>Fungují tyto druhy citací (stav ke dni 2023-04-17)</u>:
 
 - Kniha - tištěná a elektronická
 
@@ -35,9 +35,9 @@ autor-datum (harvardský systém)
 - E-mail
 
 - Příspěvek na sociální síti
-  
-  
-  
+
+- Video
+
   =============================================================
 
 ## Informace o původu:
@@ -76,8 +76,6 @@ Použití: pro Technickou univerzitu v Liberci
 
 Důvod vzniku: Zapracování citačního stylu pro Technickou univerzitu v Liberci dle *Metodiky citování, 3. vyd.*, z roku 2023, která vychází z normy ČSN ISO 690:2022.
 
-
-
 =====================================================================
 
 ### Jaké druhy dokumentů lze citovat:
@@ -111,9 +109,7 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 - e-maily
 
 - příspěvky na sociálních sítích
-  
-  
-  
+
   ==================================================================
 
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
@@ -121,8 +117,6 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 Pro následující dokumenty není citační styl nastaven, citace nemusí odpovídat pravidlům: <mark>bude doplněno</mark>.
 
 V případě, že potřebujete citovat některý z těchto druhů, pak aplikujte princip, že citace by měly dodržovat stejná pravidla a měly by vypadat podobně. Lze použít také některý z připravených druhů dokumentů (viz Jaké druhy dokumentů lze citovat).
-
-
 
 ======================================================================
 
@@ -162,8 +156,6 @@ Pořadí jmen vynálezců je schodné jako u editorů, tedy i první vynálezce 
 
 Souběžný název, abstrakt, krátký název, práva, signaturu a další údaje, které se budou stahovat do Zotera, můžete, ale nemusíte mazat. Tyto údaje by neměly mít na výslednou citaci vliv. Samozřejmě pokud se s údaji nepracuje, je výhodnější je smazat a udržovat metadata vyčištěná.
 
-
-
 =======================================================================
 
 ### Specifika jednotlivých druhů dokumentů:
@@ -183,6 +175,10 @@ Přístup se píše do pole Archiv.
 Formát se píše do pole Extra ve tvaru medium: webová kniha
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
 
+
+
+...............................................................................................................................................
+
 ##### <u>Kapitola v knize</u>:
 
 Používejte typ položky „Kapitola knihy“. 
@@ -196,6 +192,10 @@ Přístup se píše do pole Archiv.
 Formát se píše do pole Extra ve tvaru medium: webová kniha
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
 
+
+
+...............................................................................................................................................
+
 ##### <u>Článek</u>:
 
 Používejte typ položky „Článek v časopise“ nebo „Čánek v novinách“ nebo „Preprint“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
@@ -203,6 +203,10 @@ Používejte typ položky „Článek v časopise“ nebo „Čánek v novinách
 Přístup se píše do pole Archiv. Pozor při stahování článků z Medviku a pod., v tom případě je třeba údaje v poli Archiv vymazat.
 
 *Upozornění*: U cizojazyčných článků se používá česká terminologie (roč. a č.), terminologie v jazyce článku (vol., no aj.) není aplikována.
+
+
+
+...............................................................................................................................................
 
 ##### <u>Kvalifikační práce</u>:
 
@@ -213,6 +217,10 @@ Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné
 Druh kvalifikační práce se píše do pole Typ.
 
 Knihovna a signatura se píší do pole Archiv, ideálně ve tvaru Knihovna X, signatura Y.
+
+
+
+...............................................................................................................................................
 
 ##### <u>Legislativa (zákon, vyhláška, věstník)</u>:
 
@@ -225,6 +233,10 @@ Stát a případně orgán státní správy se píše do pole Autor do Příjmen
 Částka se píše do pole Kódové číslo. 
 
 ISSN nebo ISBN nebo DOI se píše do pole Extra ve tvaru ISSN: 1234-5678.
+
+
+
+...............................................................................................................................................
 
 ##### <u>Norma</u>:
 
@@ -242,6 +254,10 @@ Do pole Extra lze napsat poznámky k dostupnosti (paywall atd.).
 
 *Upozornění*: Toto je nový typ dokumentu, který by měl být přidaný do Zotera cca do 6.5.2023. Pokud ho v nabídce nemáte, pak doporučuji stáhnout si beta verzi Zotera (z https://www.zotero.org/support/beta_builds, nejlépe zip, tedy lokální spuštění). Staženou beta verzi spustit a pak by měla být i v normálním Zoteru položka Standardní. Beta verzi je následně možné smazat.
 
+
+
+...............................................................................................................................................
+
 ##### <u>Notový záznam</u>:
 
 Používejte typ položky „Kniha“, (cituje se stejně jako kniha). 
@@ -253,6 +269,10 @@ V případě, že je známo opusové číslo, píše se do pole Název za název
 Identifikátor ISMN se píše do pole Extra ve tvaru ISMN: 979787 
 
 Přístup se píše do pole Archiv.
+
+
+
+...............................................................................................................................................
 
 ##### <u>Mapa</u>:
 
@@ -272,6 +292,10 @@ Přístup se píše do pole Archiv.
 
 Formát mapy (např. satelitní mapa) se píše do pole Typ.
 
+
+
+...............................................................................................................................................
+
 ##### <u>Patent</u>:
 
 Používejte typ položky „Patent“.
@@ -284,6 +308,10 @@ Pořadí jmen vynálezců je schodné jako u editorů, tedy i první vynálezce 
 
 *Tip*: Údaje o patentech se nejlépe stahují z Google Patents (https://patents.google.com/), většinou je nutná pouze oprava jmen osob. 
 
+
+
+...............................................................................................................................................
+
 ##### <u>Elektronický poster z konference</u>:
 
 Týká se posterů z konferencí a dalších příspěvků, které jsou přednesené na konferenci, ale nejsou publikované ve sborníku. Publikované postery či příspěvky se citují dle vzoru pro článek.
@@ -295,6 +323,10 @@ Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné
 Datum konání konference je ve formátu DD-MM-RRRR.
 
 Formát se píše do pole Extra ve tvaru medium: poster
+
+
+
+...............................................................................................................................................
 
 ##### <u>Web</u>:
 
@@ -316,6 +348,10 @@ Datum archivace se píše do pole Extra ve tvaru archivovano: 2023-05-31
 
 Distributor se píše do pole Extra ve tvaru publisher: Internet Archive
 
+
+
+...............................................................................................................................................
+
 ##### <u>Webová stránka</u>:
 
 Jako webová stránka je míněna jedna konkrétní online stránka. V bibliografické citaci je tento souhrn vyjádřen termínem „online“.
@@ -336,11 +372,19 @@ Datum archivace se píše do pole Extra ve tvaru archivovano: 2023-05-31
 
 Distributor se píše do pole Extra ve tvaru publisher: Internet Archive
 
+
+
+...............................................................................................................................................
+
 ##### <u>E-mail</u>:
 
 Používejte typ položky „Webová stránka“.
 
 V harvardském systému je celé datum uvedené za názvem mailu.
+
+
+
+...............................................................................................................................................
 
 ##### <u>Příspěvek na sociální síti</u>:
 
@@ -353,3 +397,17 @@ Pokud není k dispozici jméno autora, pak se do pole Autor píše nick v [ ].
 Název sociální sítě se píše do pole Název fóra.
 
 Zotero nepracuje s přesným časem, stačí jen celé datum publikování příspěvku.
+
+
+
+...............................................................................................................................................
+
+##### <u>Video</u>:
+
+Používejte typ položky „Video nahrávka“.  (Typ položky Film funguje stejně, Video nahrávka má víc možností.)
+Role režiséra je v bibliografické citaci označena slovem (režie).
+Přednášející se píše do pole Přispěvatel.
+Vydání či verze se píší do pole Extra ve tvaru edition: 2. vyd.
+Filmové studio či vydavatel se píší do pole Studio.
+V případě videí na online platformách se do pole Archiv píše název platformy (YouTube, Vimeo atd.). Do pole Místo v archivu se píše autor kanálu.
+Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano.
