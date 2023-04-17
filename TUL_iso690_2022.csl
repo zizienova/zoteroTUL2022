@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-10T15:49:45+00:00</updated>
+    <updated>2023-04-17T09:02:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -105,6 +105,16 @@
       <if type="patent" match="all" variable="contributor">
         <text macro="contributor"/>
       </if>
+      <else-if type="motion_picture" match="any">
+        <choose>
+          <if match="any" variable="director">
+            <text macro="director"/>
+          </if>
+          <else-if match="any" variable="contributor">
+            <text macro="contributor" suffix=" (přednášející)"/>
+          </else-if>
+        </choose>
+      </else-if>
       <else>
         <choose>
           <if variable="author editor" match="any">
@@ -348,6 +358,9 @@
           <if variable="publisher">
             <text variable="publisher"/>
           </if>
+          <else-if match="any" variable="archive_location">
+            <text variable="archive_location" prefix="Nahrál: "/>
+          </else-if>
         </choose>
       </if>
       <else>
@@ -595,10 +608,23 @@
         <text variable="container-title" text-case="capitalize-first" prefix="Dostupné z: " suffix=", "/>
         <text variable="URL" text-decoration="underline"/>
       </if>
+      <else-if type="motion_picture" match="all" variable="archive">
+        <text variable="archive" text-case="capitalize-first" prefix="Dostupné z: " suffix=" (distributor), "/>
+        <text variable="URL" font-style="normal" text-decoration="underline"/>
+      </else-if>
       <else>
         <text macro="url"/>
       </else>
     </choose>
+  </macro>
+  <macro name="director">
+    <names variable="director">
+      <name delimiter="; " and="text" delimiter-precedes-last="never" name-as-sort-order="first">
+        <name-part name="given"/>
+        <name-part name="family" text-case="uppercase"/>
+      </name>
+    </names>
+    <text value=" (režie)"/>
   </macro>
   <citation and="text" et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" collapse="year" year-suffix-delimiter=", " after-collapse-delimiter="; ">
     <layout prefix="(" suffix=")" delimiter="; ">
@@ -608,6 +634,24 @@
             <if type="patent" match="all" variable="contributor">
               <text macro="contributor-citation"/>
             </if>
+            <else-if type="motion_picture" match="any">
+              <choose>
+                <if match="any" variable="director">
+                  <names variable="director" suffix=", ">
+                    <name form="short">
+                      <name-part name="family"/>
+                    </name>
+                  </names>
+                </if>
+                <else-if match="any" variable="contributor">
+                  <names variable="contributor" suffix=", ">
+                    <name form="short">
+                      <name-part name="family"/>
+                    </name>
+                  </names>
+                </else-if>
+              </choose>
+            </else-if>
             <else>
               <text macro="author-citation"/>
             </else>
@@ -890,12 +934,24 @@
           </choose>
         </else-if>
         <else-if type="motion_picture" match="any">
-          <text macro="title" suffix=". "/>
-          <text macro="medium" prefix="[" suffix="]. "/>
-          <text macro="year-date" suffix=". "/>
-          <text macro="responsability" suffix=". "/>
-          <text macro="publisher-place" suffix=": "/>
+          <group delimiter=". " suffix=". ">
+            <text variable="title" font-style="italic"/>
+            <group delimiter="; ">
+              <text variable="medium" text-case="capitalize-first"/>
+              <choose>
+                <if match="any" variable="DOI URL">
+                  <text value="online"/>
+                </if>
+              </choose>
+            </group>
+            <text macro="edition"/>
+          </group>
           <text macro="publisher" suffix=". "/>
+          <group delimiter=". " suffix=".">
+            <text macro="cele-datum"/>
+            <text macro="isbn"/>
+            <text macro="url-post"/>
+          </group>
         </else-if>
         <else-if type="song" match="any">
           <text macro="title" suffix=". "/>
