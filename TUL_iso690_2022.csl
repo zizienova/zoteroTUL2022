@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-17T09:02:09+00:00</updated>
+    <updated>2023-04-17T18:49:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -293,6 +293,9 @@
       <if variable="genre">
         <text variable="genre" text-case="capitalize-first"/>
       </if>
+      <else-if type="dataset" match="any">
+        <text value="dataset" text-case="capitalize-first"/>
+      </else-if>
     </choose>
   </macro>
   <macro name="date">
@@ -1049,6 +1052,25 @@
             <text macro="url-chapter"/>
             <text variable="note" prefix="[" suffix="]"/>
             <text variable="status" text-case="capitalize-first"/>
+          </group>
+        </else-if>
+        <else-if type="dataset" match="any">
+          <group delimiter=". " suffix=".">
+            <text variable="title" font-style="italic"/>
+            <text variable="version"/>
+            <group delimiter="; ">
+              <text macro="genre"/>
+              <choose>
+                <if match="any" variable="DOI URL">
+                  <text value="online"/>
+                </if>
+              </choose>
+            </group>
+            <text variable="publisher" text-case="capitalize-first" prefix="In: "/>
+            <text macro="cele-datum"/>
+            <text macro="isbn"/>
+            <text macro="url-chapter"/>
+            <text variable="note" text-case="capitalize-first"/>
           </group>
         </else-if>
         <else>
