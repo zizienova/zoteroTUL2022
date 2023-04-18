@@ -6,7 +6,7 @@ Citační styl pro Technickou univerzitu v Liberci, dle ČSN ISO 690:2022 a Meto
 
 autor-datum (harvardský systém)
 
-<u>Fungují tyto druhy citací (stav ke dni 2023-04-17)</u>:
+<u>Fungují tyto druhy citací (stav ke dni 2023-04-18)</u>:
 
 - Kniha - tištěná a elektronická
 
@@ -37,8 +37,10 @@ autor-datum (harvardský systém)
 - Příspěvek na sociální síti
 
 - Video
-  
-  =============================================================
+
+- Dataset
+
+=============================================================
 
 ## Informace o původu:
 
@@ -109,8 +111,12 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 - e-maily
 
 - příspěvky na sociálních sítích
-  
-  ==================================================================
+
+- videa
+
+- datasety
+
+==================================================================
 
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
 
@@ -389,3 +395,19 @@ Filmové studio či vydavatel se píší do pole Studio.
 V případě videí na online platformách se do pole Archiv píše název platformy (YouTube, Vimeo atd.). Do pole Místo v archivu se píše autor kanálu. 
 
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano.
+
+...............................................................................................................................................
+
+##### <u>Dataset</u>:
+
+Používejte typ položky „Dataset“. 
+
+Vydání či verze se píší do pole Verze. 
+
+Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano. Toto datum je v bibliografické citaci uváděné ve formátu RRRR-MM-DD, chybí původní podoba data. 
+
+Systémové požadavky či velikost souboru lze zapsat na nový řádek do pole Extra a budou vloženy na konec bibliografické citace.
+
+*Upozornění*: Toto je nový typ dokumentu, který by měl být přidaný do Zotera cca do 6.5.2023. Pokud ho v nabídce nemáte, pak doporučuji stáhnout si beta verzi Zotera (z https://www.zotero.org/support/beta_builds, nejlépe zip, tedy lokální spuštění). Staženou beta verzi spustit a pak by měla být i v normálním Zoteru položka Dataset. Beta verzi je následně možné smazat.
+
+...............................................................................................................................................
