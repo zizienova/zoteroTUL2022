@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-19T07:16:33+00:00</updated>
+    <updated>2023-04-19T10:12:05+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -1029,7 +1029,12 @@
         <else-if type="interview">
           <group delimiter=". " suffix=". ">
             <text macro="title"/>
-            <text macro="interviewer"/>
+            <text variable="medium" text-case="capitalize-first"/>
+            <group>
+              <text variable="publisher-place"/>
+              <text variable="publisher" prefix=": "/>
+              <text macro="date-RRRRMMDD" prefix=", "/>
+            </group>
           </group>
         </else-if>
         <else-if type="legislation" match="any">
