@@ -6,7 +6,7 @@ Citační styl pro Technickou univerzitu v Liberci, dle ČSN ISO 690:2022 a Meto
 
 autor-datum (harvardský systém)
 
-<u>Fungují tyto druhy citací (stav ke dni 2023-04-18)</u>:
+<u>Fungují tyto druhy citací (stav ke dni 2023-04-19)</u>:
 
 - Kniha - tištěná a elektronická
 
@@ -39,6 +39,8 @@ autor-datum (harvardský systém)
 - Video
 
 - Dataset
+
+- Software
 
 =============================================================
 
@@ -115,6 +117,8 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 - videa
 
 - datasety
+
+- software
 
 ==================================================================
 
@@ -409,5 +413,23 @@ Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí b�
 Systémové požadavky či velikost souboru lze zapsat na nový řádek do pole Extra a budou vloženy na konec bibliografické citace.
 
 *Upozornění*: Toto je nový typ dokumentu, který by měl být přidaný do Zotera cca do 6.5.2023. Pokud ho v nabídce nemáte, pak doporučuji stáhnout si beta verzi Zotera (z https://www.zotero.org/support/beta_builds, nejlépe zip, tedy lokální spuštění). Staženou beta verzi spustit a pak by měla být i v normálním Zoteru položka Dataset. Beta verzi je následně možné smazat.
+
+...............................................................................................................................................
+
+##### <u>Software</u>:
+
+Používejte typ položky „Software“.
+
+Formát souboru se píše do pole Extra ve tvaru genre: program
+
+Vydavatel se píše do pole Společnost
+
+Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano. Toto datum je v bibliografické citaci uváděné ve formátu RRRR-MM-DD, chybí původní podoba data.
+
+Distributor se píše do pole Archiv
+
+Systémové požadavky se píší do pole Systém
+
+Velikost souboru lze zapsat na nový řádek do pole Extra a bude vložen na konec bibliografické citace.
 
 ...............................................................................................................................................
