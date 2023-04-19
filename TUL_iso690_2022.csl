@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-19T03:10:55+00:00</updated>
+    <updated>2023-04-19T07:16:33+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -828,15 +828,14 @@
         </else-if>
         <else-if type="speech">
           <group delimiter=". " suffix=". ">
-            <text macro="title"/>
-            <text macro="genre"/>
-            <text macro="publisher-place"/>
-            <group delimiter=" ">
-              <text macro="accessed"/>
+            <text variable="title" text-case="capitalize-first" font-style="italic"/>
+            <text variable="genre" text-case="capitalize-first"/>
+            <group>
+              <text macro="publisher-place"/>
+              <text macro="publisher" prefix=": "/>
+              <text macro="date-RRRRMMDD" prefix=", "/>
             </group>
-            <text macro="page"/>
           </group>
-          <text macro="url"/>
         </else-if>
         <else-if type="paper-conference">
           <group delimiter=". " suffix=". ">
