@@ -44,6 +44,8 @@ autor-datum (harvardský systém)
 
 - Přednáška
 
+- Rozhovor
+
 =============================================================
 
 ## Informace o původu:
@@ -124,11 +126,15 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 
 - přednášky
 
+- rozhovory
+
 ==================================================================
 
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
 
-Pro následující dokumenty není citační styl nastaven, citace nemusí odpovídat pravidlům: <mark>bude doplněno</mark>.
+Pro následující dokumenty není citační styl nastaven, citace nemusí odpovídat pravidlům: 
+
+~~článek v encyklopedii, dokument, konferenční příspěvek, případ, rukopis, slyšení, umělecké dílo, záznam ve slovníku~~. 
 
 V případě, že potřebujete citovat některý z těchto druhů, pak aplikujte princip, že citace by měly dodržovat stejná pravidla a měly by vypadat podobně. Lze použít také některý z připravených druhů dokumentů (viz Jaké druhy dokumentů lze citovat).
 
@@ -449,5 +455,21 @@ Typ zdroje se píše do pole Typ.
 Celé datum se píše do pole Datum. Zotero nepracuje s časem, v citaci bude pouze kompletní datum konání.
 
 Pořadatel se píše do pole Extra ve tvaru publisher: Technická univerzita v Liberci
+
+...............................................................................................................................................
+
+##### <u>Rozhovor</u>:
+
+Používejte typ položky „Rozhovor“.
+
+Účastníci rozhovoru se píší do pole Rozhovor s.
+
+Celé datum se píše do pole Datum.
+
+Typ zdroje se píše do pole Médium.
+
+Místo konání rozhovoru se píše do pole Extra ve tvaru publisher-place: Liberec
+
+Případný pořadatel rozhovoru se píše do pole Extra ve tvaru publisher: Marta Zizienová
 
 ...............................................................................................................................................
