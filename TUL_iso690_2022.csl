@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-17T18:49:37+00:00</updated>
+    <updated>2023-04-19T02:54:42+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -295,6 +295,9 @@
       </if>
       <else-if type="dataset" match="any">
         <text value="dataset" text-case="capitalize-first"/>
+      </else-if>
+      <else-if type="software" match="any">
+        <text value="program" text-case="capitalize-first"/>
       </else-if>
     </choose>
   </macro>
@@ -1070,6 +1073,31 @@
             <text macro="cele-datum"/>
             <text macro="isbn"/>
             <text macro="url-chapter"/>
+            <text variable="note" text-case="capitalize-first"/>
+          </group>
+        </else-if>
+        <else-if type="software" match="any">
+          <group delimiter=". " suffix=".">
+            <text variable="title" text-case="capitalize-first" font-style="italic"/>
+            <text macro="genre"/>
+            <text variable="version" text-case="capitalize-first"/>
+            <group delimiter=", ">
+              <text variable="publisher" text-case="capitalize-first"/>
+              <text macro="cele-datum"/>
+            </group>
+            <text macro="isbn"/>
+            <group>
+              <choose>
+                <if type="software" match="all" variable="archive">
+                  <text variable="archive" prefix="Dostupné z: " suffix=" (distributor), "/>
+                  <text variable="URL" text-decoration="underline"/>
+                </if>
+                <else-if match="any" variable="URL">
+                  <text macro="url"/>
+                </else-if>
+              </choose>
+            </group>
+            <text variable="medium" prefix="Systémové požadavky: "/>
             <text variable="note" text-case="capitalize-first"/>
           </group>
         </else-if>
