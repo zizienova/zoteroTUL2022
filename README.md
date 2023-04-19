@@ -42,6 +42,8 @@ autor-datum (harvardský systém)
 
 - Software
 
+- Přednáška
+
 =============================================================
 
 ## Informace o původu:
@@ -120,6 +122,8 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 
 - software
 
+- přednášky
+
 ==================================================================
 
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
@@ -140,7 +144,7 @@ U cizojazyčných článků se používá česká terminologie (roč. a č.), te
 
 ##### Čas příspěvku:
 
-Zotero nepracuje s hodinami, v bibliografických citacích příspěvků na sociálních sítích je pouze celé datum bez hodiny a minuty.
+Zotero nepracuje s hodinami, v bibliografických citacích příspěvků na sociálních sítích a přednášek je pouze celé datum bez hodiny a minuty.
 
 ##### Identifikátory:
 
@@ -431,5 +435,19 @@ Distributor se píše do pole Archiv
 Systémové požadavky se píší do pole Systém
 
 Velikost souboru lze zapsat na nový řádek do pole Extra a bude vložen na konec bibliografické citace.
+
+...............................................................................................................................................
+
+##### <u>Přednáška</u>:
+
+Používejte typ položky „Prezentace“.
+
+Lektoři se píší do pole Prezentující.
+
+Typ zdroje se píše do pole Typ.
+
+Celé datum se píše do pole Datum. Zotero nepracuje s časem, v citaci bude pouze kompletní datum konání.
+
+Pořadatel se píše do pole Extra ve tvaru publisher: Technická univerzita v Liberci
 
 ...............................................................................................................................................
