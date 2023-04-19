@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-19T10:12:05+00:00</updated>
+    <updated>2023-04-19T14:57:56+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -830,11 +830,14 @@
           <group delimiter=". " suffix=". ">
             <text variable="title" text-case="capitalize-first" font-style="italic"/>
             <text variable="genre" text-case="capitalize-first"/>
-            <group>
-              <text macro="publisher-place"/>
-              <text macro="publisher" prefix=": "/>
-              <text macro="date-RRRRMMDD" prefix=", "/>
+            <group delimiter=", ">
+              <group delimiter=": ">
+                <text variable="publisher-place" text-case="capitalize-first"/>
+                <text variable="publisher"/>
+              </group>
+              <text macro="date-RRRRMMDD"/>
             </group>
+            <text variable="note" text-case="capitalize-first"/>
           </group>
         </else-if>
         <else-if type="paper-conference">
@@ -1028,13 +1031,16 @@
         </else-if>
         <else-if type="interview">
           <group delimiter=". " suffix=". ">
-            <text macro="title"/>
+            <text variable="title" font-style="italic"/>
             <text variable="medium" text-case="capitalize-first"/>
-            <group>
-              <text variable="publisher-place"/>
-              <text variable="publisher" prefix=": "/>
-              <text macro="date-RRRRMMDD" prefix=", "/>
+            <group delimiter=", ">
+              <group delimiter=": ">
+                <text variable="publisher-place"/>
+                <text variable="publisher"/>
+              </group>
+              <text macro="date-RRRRMMDD"/>
             </group>
+            <text variable="note" text-case="capitalize-first"/>
           </group>
         </else-if>
         <else-if type="legislation" match="any">
