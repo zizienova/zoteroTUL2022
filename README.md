@@ -144,7 +144,7 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 
 Pro následující dokumenty není citační styl nastaven, citace nemusí odpovídat pravidlům: 
 
-~~dokument, konferenční příspěvek, návrh zákona, případ, rukopis, slyšení~~. 
+~~audio nahrávka, dokument, návrh zákona, podcast, pořad v rádiu, pořad v TV, případ, rukopis, slyšení, zpráva~~. 
 
 V případě, že potřebujete citovat některý z těchto druhů, pak aplikujte princip, že citace by měly dodržovat stejná pravidla a měly by vypadat podobně. Lze použít také některý z připravených druhů dokumentů (viz Jaké druhy dokumentů lze citovat).
 
