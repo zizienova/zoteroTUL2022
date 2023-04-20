@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-20T10:51:50+00:00</updated>
+    <updated>2023-04-20T15:24:02+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -812,19 +812,25 @@
         </else-if>
         <else-if type="entry entry-dictionary entry-encyclopedia" match="any">
           <group delimiter=". " suffix=". ">
-            <text macro="title"/>
-            <text macro="page"/>
-            <text macro="edition"/>
-            <group delimiter=" ">
+            <text variable="title" text-case="capitalize-first"/>
+            <text macro="medium-online"/>
+            <group delimiter=". " prefix="In: ">
+              <text macro="editor"/>
               <group delimiter=", ">
-                <text macro="publisher-info"/>
-                <text macro="collection"/>
+                <text variable="container-title" font-style="italic"/>
+                <text variable="page" prefix="s. "/>
               </group>
-              <text macro="accessed"/>
+            </group>
+            <text variable="edition"/>
+            <group delimiter=": ">
+              <text variable="publisher-place"/>
+              <text variable="publisher"/>
             </group>
             <text macro="isbn"/>
+            <text macro="url"/>
+            <text macro="accessed"/>
+            <text variable="note"/>
           </group>
-          <text macro="url"/>
         </else-if>
         <else-if type="speech">
           <group delimiter=". " suffix=". ">
