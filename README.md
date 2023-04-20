@@ -48,6 +48,8 @@ autor-datum (harvardský systém)
 
 - Obrázek - fyzický i elektronický
 
+- Článek v encyklopedii, záznam ve slovníku, entry (typ, co by měl být přidán při aktualizaci Zotera na verzi 7), pozn.: tyto dokumenty nejsou definované v Metodice citování.
+
 =============================================================
 
 ## Informace o původu:
@@ -134,13 +136,15 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 
 - obrázky
 
+- články v encyklopediích, záznamy ve slovnících
+
 ==================================================================
 
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
 
 Pro následující dokumenty není citační styl nastaven, citace nemusí odpovídat pravidlům: 
 
-~~článek v encyklopedii, dokument, konferenční příspěvek, návrh zákona, případ, rukopis, slyšení, záznam ve slovníku~~. 
+~~dokument, konferenční příspěvek, návrh zákona, případ, rukopis, slyšení~~. 
 
 V případě, že potřebujete citovat některý z těchto druhů, pak aplikujte princip, že citace by měly dodržovat stejná pravidla a měly by vypadat podobně. Lze použít také některý z připravených druhů dokumentů (viz Jaké druhy dokumentů lze citovat).
 
@@ -220,7 +224,7 @@ Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí b�
 
 ##### <u>Článek</u>:
 
-Používejte typ položky „Článek v časopise“ nebo „Čánek v novinách“ nebo „Preprint“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „Článek v časopise“ nebo „Článek v novinách“ nebo „Preprint“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Přístup se píše do pole Archiv. Pozor při stahování článků z Medviku a pod., v tom případě je třeba údaje v poli Archiv vymazat.
 
@@ -495,3 +499,9 @@ Zdrojová databáze či název galerie se píše do pole Katalog knihovny.
 Pokud je obrázek součástí článku, knihy, webové stránky atp. a jeho autoři jsou stejní, jako autoři dotyčného dokumentu, pak citujte jen ten dotyčný dokument (tedy článek, webovou stránku, knihu aj.).
 
 ...............................................................................................................................................
+
+##### **<u>Článek v encyklopedii, záznam ve slovníku, entry</u>**:
+
+Tento dyp dokumentu nemá definovaný vzor v Metodice citování. Patří sem hesla a termíny z encyklopedií či tezaurů (Wikipedie, MeSH, Ottův slovník naučný, Britannica Dictionary aj.).
+
+*Pozn.*: Kdyby náhodou měl záznam DOI, což se výjimečně stává, tak do pole URL uveďte https://doi.org/ s dotyčným číslem DOI (např. https://doi.org/10.1036/1097-8542.YB150959).
