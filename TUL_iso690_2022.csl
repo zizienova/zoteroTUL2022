@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-19T14:57:56+00:00</updated>
+    <updated>2023-04-20T10:51:50+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -1108,6 +1108,26 @@
               </choose>
             </group>
             <text variable="medium" prefix="Systémové požadavky: "/>
+            <text variable="note" text-case="capitalize-first"/>
+          </group>
+        </else-if>
+        <else-if type="graphic" match="any">
+          <group delimiter=". " suffix=".">
+            <text variable="title" text-case="capitalize-first"/>
+            <choose>
+              <if match="any" variable="DOI URL">
+                <text macro="medium-online"/>
+              </if>
+              <else>
+                <text variable="medium"/>
+              </else>
+            </choose>
+            <group delimiter=", ">
+              <text variable="source" font-style="italic" prefix="In: "/>
+              <text macro="cele-datum"/>
+            </group>
+            <text macro="url"/>
+            <text macro="accessed"/>
             <text variable="note" text-case="capitalize-first"/>
           </group>
         </else-if>
