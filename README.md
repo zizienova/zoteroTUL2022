@@ -6,7 +6,7 @@ Citační styl pro Technickou univerzitu v Liberci, dle ČSN ISO 690:2022 a Meto
 
 autor-datum (harvardský systém)
 
-<u>Fungují tyto druhy citací (stav ke dni 2023-04-19)</u>:
+<u>Fungují tyto druhy citací (stav ke dni 2023-04-20)</u>:
 
 - Kniha - tištěná a elektronická
 
@@ -46,6 +46,8 @@ autor-datum (harvardský systém)
 
 - Rozhovor
 
+- Obrázek - fyzický i elektronický
+
 =============================================================
 
 ## Informace o původu:
@@ -80,9 +82,11 @@ Datum výroby: od 2023-03 do <mark>?</mark>
 
 ###### Licence: [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 
-Použití: pro Technickou univerzitu v Liberci
+**Použití:** pro Technickou univerzitu v Liberci
 
-Důvod vzniku: Zapracování citačního stylu pro Technickou univerzitu v Liberci dle *Metodiky citování, 3. vyd.*, z roku 2023, která vychází z normy ČSN ISO 690:2022.
+**Důvod vzniku:** Zapracování citačního stylu pro Technickou univerzitu v Liberci dle *Metodiky citování, 3. vyd.*, z roku 2023, která vychází z normy ČSN ISO 690:2022.
+
+**Poděkování:** Tento citační styl vychází z citačního stylu, jehož autory jsou Jiří Kratochvíl a Libor Ansorge a patří jim naše velké poděkování (http://www.zotero.org/styles/iso690-author-date-cs).
 
 =====================================================================
 
@@ -128,13 +132,15 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 
 - rozhovory
 
+- obrázky
+
 ==================================================================
 
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
 
 Pro následující dokumenty není citační styl nastaven, citace nemusí odpovídat pravidlům: 
 
-~~článek v encyklopedii, dokument, konferenční příspěvek, případ, rukopis, slyšení, umělecké dílo, záznam ve slovníku~~. 
+~~článek v encyklopedii, dokument, konferenční příspěvek, návrh zákona, případ, rukopis, slyšení, záznam ve slovníku~~. 
 
 V případě, že potřebujete citovat některý z těchto druhů, pak aplikujte princip, že citace by měly dodržovat stejná pravidla a měly by vypadat podobně. Lze použít také některý z připravených druhů dokumentů (viz Jaké druhy dokumentů lze citovat).
 
@@ -471,5 +477,21 @@ Typ zdroje se píše do pole Médium.
 Místo konání rozhovoru se píše do pole Extra ve tvaru publisher-place: Liberec
 
 Případný pořadatel rozhovoru se píše do pole Extra ve tvaru publisher: Marta Zizienová
+
+...............................................................................................................................................
+
+##### <u>Obrázek</u>:
+
+Používejte typ položky „Umělecké dílo“.
+
+Formát se píše do pole Médium.
+
+Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano. 
+
+Zdrojová databáze či název galerie se píše do pole Katalog knihovny.
+
+*Pozn.*: Tento typ používejte pouze pro samostatné obrázky na Internetu (z databází typu Wikimedia Commons, Europeana, Flickr aj.) či pro fyzická umělecká díla v galeriích apod.
+
+Pokud je obrázek součástí článku, knihy, webové stránky atp. a jeho autoři jsou stejní, jako autoři dotyčného dokumentu, pak citujte jen ten dotyčný dokument (tedy článek, webovou stránku, knihu aj.).
 
 ...............................................................................................................................................
