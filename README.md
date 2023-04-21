@@ -392,7 +392,7 @@ V harvardském systému je celé datum uvedené za názvem mailu.
 
 ##### <u>Příspěvek na sociální síti</u>:
 
-Používejte typ položky „Příspěvek ve fóru“.
+Používejte typ položky „Příspěvek ve fóru“ (typ položky "Příspěvek v blogu" by měl fungovat stejně).
 
 Pokud je k dispozici jméno autora, píše se do pole Autor, v tom případě nick autora se píše do pole Extra ve tvaru nick: @ochranceprav
 
