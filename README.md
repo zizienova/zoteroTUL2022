@@ -50,6 +50,10 @@ autor-datum (harvardský systém)
 
 - Článek v encyklopedii, záznam ve slovníku, entry (typ, co by měl být přidán při aktualizaci Zotera na verzi 7), pozn.: tyto dokumenty nejsou definované v Metodice citování.
 
+
+
+Vzorové záznamy jsou dostupné na: [vzorove-dokumenty v Zoteru](https://www.zotero.org/groups/5035724/vzorove_dokumenty/library).
+
 =============================================================
 
 ## Informace o původu:
