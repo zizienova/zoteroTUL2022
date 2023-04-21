@@ -142,7 +142,7 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 
 ### Pro jaké druhy dokumentů (typy položek) není styl upraven:
 
-Pro následující dokumenty není citační styl nastaven, citace nemusí odpovídat pravidlům: 
+Pro následující dokumenty není citační styl nastaven, citace bude vytvořena, ale nemusí odpovídat pravidlům: 
 
 ~~audio nahrávka, dokument, návrh zákona, podcast, pořad v rádiu, pořad v TV, případ, rukopis, slyšení, zpráva~~. 
 
@@ -502,6 +502,8 @@ Pokud je obrázek součástí článku, knihy, webové stránky atp. a jeho auto
 
 ##### **<u>Článek v encyklopedii, záznam ve slovníku, entry</u>**:
 
+Typy položek "článek v encyklopedii", "záznam ve slovníku" a připravovaný typ položky "entry".
+
 Tento dyp dokumentu nemá definovaný vzor v Metodice citování. Patří sem hesla a termíny z encyklopedií či tezaurů (Wikipedie, MeSH, Ottův slovník naučný, Britannica Dictionary aj.).
 
-*Pozn.*: Kdyby náhodou měl záznam DOI, což se výjimečně stává, tak do pole URL uveďte https://doi.org/ s dotyčným číslem DOI (např. https://doi.org/10.1036/1097-8542.YB150959).
+*Pozn.*: Kdyby náhodou měl záznam DOI, což se výjimečně stává, tak do pole URL uveďte https://doi.org/ s dotyčným číslem DOI (např. https://doi.org/10.1036/1097-8542.YB150959). Samotné DOI pak už nikam nezapisujte.
