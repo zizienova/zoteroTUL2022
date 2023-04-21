@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-21T03:19:23+00:00</updated>
+    <updated>2023-04-21T05:45:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -966,44 +966,6 @@
             <text macro="isbn"/>
             <text macro="url-post"/>
           </group>
-        </else-if>
-        <else-if type="song" match="any">
-          <text macro="title" suffix=". "/>
-          <text macro="medium" suffix=". "/>
-          <text macro="publisher-place" suffix=": "/>
-          <text macro="publisher" suffix=". "/>
-          <text macro="date" suffix=". "/>
-          <text macro="accessed" suffix=". "/>
-          <text macro="collection" suffix=". "/>
-          <text macro="isbn" suffix=". "/>
-          <text macro="url"/>
-        </else-if>
-        <else-if type="report">
-          <group delimiter=". " suffix=". ">
-            <group delimiter=": ">
-              <text macro="collection"/>
-              <text macro="title"/>
-            </group>
-            <text macro="edition"/>
-            <group delimiter=" ">
-              <text macro="genre"/>
-              <text variable="number"/>
-            </group>
-            <group delimiter=" ">
-              <text macro="publisher-info"/>
-              <text macro="accessed"/>
-            </group>
-          </group>
-          <text macro="url"/>
-        </else-if>
-        <else-if type="manuscript">
-          <text macro="title" suffix=". "/>
-          <text macro="genre" suffix=". "/>
-          <text macro="edition" suffix=". "/>
-          <text macro="publisher-place" suffix=", "/>
-          <text macro="accessed" suffix=". "/>
-          <text macro="collection" suffix=". "/>
-          <text macro="url"/>
         </else-if>
         <else-if type="patent">
           <group delimiter=". " suffix=".">
