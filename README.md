@@ -224,7 +224,7 @@ Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí b�
 
 ##### <u>Článek</u>:
 
-Používejte typ položky „Článek v časopise“ nebo „Článek v novinách“ nebo „Preprint“. Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „Článek v časopise“ nebo „Článek v novinách“ nebo „Preprint“ (typ „Článek v magazínu“ by měl fungovat stejně). Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Přístup se píše do pole Archiv. Pozor při stahování článků z Medviku a pod., v tom případě je třeba údaje v poli Archiv vymazat.
 
@@ -392,7 +392,7 @@ V harvardském systému je celé datum uvedené za názvem mailu.
 
 ##### <u>Příspěvek na sociální síti</u>:
 
-Používejte typ položky „Příspěvek ve fóru“ (typ položky "Příspěvek v blogu" by měl fungovat stejně).
+Používejte typ položky „Příspěvek ve fóru“ (typ položky „Příspěvek v blogu“ by měl fungovat stejně).
 
 Pokud je k dispozici jméno autora, píše se do pole Autor, v tom případě nick autora se píše do pole Extra ve tvaru nick: @ochranceprav
 
@@ -502,7 +502,7 @@ Pokud je obrázek součástí článku, knihy, webové stránky atp. a jeho auto
 
 ##### **<u>Článek v encyklopedii, záznam ve slovníku, entry</u>**:
 
-Typy položek "článek v encyklopedii", "záznam ve slovníku" a připravovaný typ položky "entry".
+Typy položek „článek v encyklopedii“, „záznam ve slovníku“ a připravovaný typ položky „entry“.
 
 Tento dyp dokumentu nemá definovaný vzor v Metodice citování. Patří sem hesla a termíny z encyklopedií či tezaurů (Wikipedie, MeSH, Ottův slovník naučný, Britannica Dictionary aj.).
 
