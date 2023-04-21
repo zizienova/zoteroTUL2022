@@ -144,7 +144,7 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 
 Pro následující dokumenty není citační styl nastaven, citace bude vytvořena, ale nemusí odpovídat pravidlům: 
 
-~~audio nahrávka, dokument, návrh zákona, podcast, pořad v rádiu, pořad v TV, případ, rukopis, slyšení, zpráva~~. 
+~~audio nahrávka, dokument, návrh zákona, podcast, pořad v rádiu, pořad v TV, případ, rukopis, slyšení~~. 
 
 V případě, že potřebujete citovat některý z těchto druhů, pak aplikujte princip, že citace by měly dodržovat stejná pravidla a měly by vypadat podobně. Lze použít také některý z připravených druhů dokumentů (viz Jaké druhy dokumentů lze citovat).
 
@@ -272,7 +272,7 @@ Do pole Status lze zapsat poznámky k platnosti (zrušeno aj.).
 
 Do pole Extra lze napsat poznámky k dostupnosti (paywall atd.).
 
-*Upozornění*: Toto je nový typ dokumentu, který by měl být přidaný do Zotera cca do 6.5.2023. Pokud ho v nabídce nemáte, pak doporučuji stáhnout si beta verzi Zotera (z https://www.zotero.org/support/beta_builds, nejlépe zip, tedy lokální spuštění). Staženou beta verzi spustit a pak by měla být i v normálním Zoteru položka Standardní. Beta verzi je následně možné smazat.
+*Upozornění*: Toto je nový typ dokumentu, který by měl být přidaný do Zotera cca do 6.5.2023. Pokud ho v nabídce nemáte, pak doporučuji stáhnout si beta verzi Zotera (z https://www.zotero.org/support/beta_builds, nejlépe zip, tedy lokální spuštění). Staženou beta verzi spustit a pak by měla být i v normálním Zoteru položka Standardní. Beta verzi je následně možné smazat. Jinak je možné použít typ položky „Zpráva“.
 
 ...............................................................................................................................................
 
@@ -384,7 +384,7 @@ Distributor se píše do pole Extra ve tvaru publisher: Internet Archive
 
 ##### <u>E-mail</u>:
 
-Používejte typ položky „E-mail“.
+Používejte typ položky „E-mail“ (položky „Dopis“ a „Zpráva IM“ fungují stejně).
 
 V harvardském systému je celé datum uvedené za názvem mailu.
 
