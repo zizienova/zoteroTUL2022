@@ -384,7 +384,7 @@ Distributor se píše do pole Extra ve tvaru publisher: Internet Archive
 
 ##### <u>E-mail</u>:
 
-Používejte typ položky „Webová stránka“.
+Používejte typ položky „E-mail“.
 
 V harvardském systému je celé datum uvedené za názvem mailu.
 
