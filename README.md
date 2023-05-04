@@ -168,6 +168,8 @@ Zotero nepracuje s hodinami, v bibliografických citacích příspěvků na soci
 
 Identifikátory, které nejsou v Zoteru definované (tedy ISAN, ISMN, ISRC, ISRN, ISWC a arXiv ID), je třeba psát do pole Extra ve tvaru ISAN: 478656576
 
+
+
 Pozor, identifikátor arXiv je nutné psát s velkými písmeny, tedy ARXIV a stále do pole Extra, např. ARXIV: 769986765647
 
 ##### Dostupnost:
@@ -205,6 +207,8 @@ Přístup se píše do pole Archiv.
 ###### <u>Elektronická kniha</u>:
 
 Formát se píše do pole Extra ve tvaru medium: webová kniha
+
+
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
 
 ...............................................................................................................................................
@@ -220,6 +224,8 @@ Přístup se píše do pole Archiv.
 ###### <u>Kapitola v elektronické knize</u>:
 
 Formát se píše do pole Extra ve tvaru medium: webová kniha
+
+
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
 
 ...............................................................................................................................................
@@ -274,7 +280,7 @@ Do pole Status lze zapsat poznámky k platnosti (zrušeno aj.).
 
 Do pole Extra lze napsat poznámky k dostupnosti (paywall atd.).
 
-*Upozornění*: Toto je nový typ dokumentu, který by měl být přidaný do Zotera cca do 6.5.2023. Pokud ho v nabídce nemáte, pak doporučuji stáhnout si beta verzi Zotera (z https://www.zotero.org/support/beta_builds, nejlépe zip, tedy lokální spuštění). Staženou beta verzi spustit a pak by měla být i v normálním Zoteru položka Standardní. Beta verzi je následně možné smazat. Jinak je možné použít typ položky „Zpráva“.
+*Upozornění*: Toto je nový typ dokumentu, který by měl být přidaný do Zotera ve verzi 7. Pokud ho v nabídce nemáte, pak doporučuji stáhnout si beta verzi Zotera (z https://www.zotero.org/support/beta_builds, nejlépe zip, tedy lokální spuštění). Staženou beta verzi spustit a pak by měla být i v normálním Zoteru položka Standardní. Beta verzi je následně možné smazat. Jinak je možné použít typ položky „Zpráva“.
 
 ...............................................................................................................................................
 
@@ -287,6 +293,8 @@ Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné
 V případě, že je známo opusové číslo, píše se do pole Název za název knihy za čárku (např. 9. symfonie e moll: Z nového světa, [Op. 95]). 
 
 Identifikátor ISMN se píše do pole Extra ve tvaru ISMN: 979787 
+
+
 
 Přístup se píše do pole Archiv.
 
@@ -304,6 +312,8 @@ Autor mapy se píše do pole Kartograf.
 Do pole Měřítko se píše číselná hodnota či celá fráze o měřítku (měřítka různá).
 Číslo svazku edice se píše do pole Extra ve formátu collection-number: XXX
 Rozměr mapy se píše do pole Extra ve formátu rozmery: 30 cm × 42 cm
+
+
 Přístup se píše do pole Archiv.
 
 ###### <u>Elektronická mapa</u>:
@@ -350,13 +360,19 @@ Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné
 
 ISSN se píše do pole Extra ve tvaru ISSN: 1234-6789
 
+
+
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
+
+
 
 Vydání či verze se píší do pole Extra ve tvaru edition: Version 5.
 
 <u>**Pro archivovaný web**</u>:
 
 Datum archivace se píše do pole Extra ve tvaru archivovano: 2023-05-31
+
+
 
 Distributor se píše do pole Extra ve tvaru publisher: Internet Archive
 
@@ -372,13 +388,19 @@ Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné
 
 ISSN se píše do pole Extra ve tvaru ISSN: 1234-6789
 
+
+
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
+
+
 
 Vydání či verze se píší do pole Extra ve tvaru edition: Version 5.
 
 <u><strong>Pro archivovanou webovou stránku</strong></u>:
 
 Datum archivace se píše do pole Extra ve tvaru archivovano: 2023-05-31
+
+
 
 Distributor se píše do pole Extra ve tvaru publisher: Internet Archive
 
@@ -397,6 +419,8 @@ V harvardském systému je celé datum uvedené za názvem mailu.
 Používejte typ položky „Příspěvek ve fóru“ (typ položky „Příspěvek v blogu“ by měl fungovat stejně).
 
 Pokud je k dispozici jméno autora, píše se do pole Autor, v tom případě nick autora se píše do pole Extra ve tvaru nick: @ochranceprav
+
+
 
 Pokud není k dispozici jméno autora, pak se do pole Autor píše nick v [ ].
 
@@ -434,7 +458,7 @@ Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí b�
 
 Systémové požadavky či velikost souboru lze zapsat na nový řádek do pole Extra a budou vloženy na konec bibliografické citace.
 
-*Upozornění*: Toto je nový typ dokumentu, který by měl být přidaný do Zotera cca do 6.5.2023. Pokud ho v nabídce nemáte, pak doporučuji stáhnout si beta verzi Zotera (z https://www.zotero.org/support/beta_builds, nejlépe zip, tedy lokální spuštění). Staženou beta verzi spustit a pak by měla být i v normálním Zoteru položka Dataset. Beta verzi je následně možné smazat.
+*Upozornění*: Toto je nový typ dokumentu, který by měl být přidaný do Zotera ve verzi 7. Pokud ho v nabídce nemáte, pak doporučuji stáhnout si beta verzi Zotera (z https://www.zotero.org/support/beta_builds, nejlépe zip, tedy lokální spuštění). Staženou beta verzi spustit a pak by měla být i v normálním Zoteru položka Dataset. Beta verzi je následně možné smazat.
 
 ...............................................................................................................................................
 
@@ -444,13 +468,13 @@ Používejte typ položky „Software“.
 
 Formát souboru se píše do pole Extra ve tvaru genre: program
 
-Vydavatel se píše do pole Společnost
+Vydavatel se píše do pole Společnost.
 
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano. Toto datum je v bibliografické citaci uváděné ve formátu RRRR-MM-DD, chybí původní podoba data.
 
-Distributor se píše do pole Archiv
+Distributor se píše do pole Archiv.
 
-Systémové požadavky se píší do pole Systém
+Systémové požadavky se píší do pole Systém.
 
 Velikost souboru lze zapsat na nový řádek do pole Extra a bude vložen na konec bibliografické citace.
 
@@ -482,6 +506,8 @@ Typ zdroje se píše do pole Médium.
 
 Místo konání rozhovoru se píše do pole Extra ve tvaru publisher-place: Liberec
 
+
+
 Případný pořadatel rozhovoru se píše do pole Extra ve tvaru publisher: Marta Zizienová
 
 ...............................................................................................................................................
@@ -499,6 +525,18 @@ Zdrojová databáze či název galerie se píše do pole Katalog knihovny.
 *Pozn.*: Tento typ používejte pouze pro samostatné obrázky na Internetu (z databází typu Wikimedia Commons, Europeana, Flickr aj.) či pro fyzická umělecká díla v galeriích apod.
 
 Pokud je obrázek součástí článku, knihy, webové stránky atp. a jeho autoři jsou stejní, jako autoři dotyčného dokumentu, pak citujte jen ten dotyčný dokument (tedy článek, webovou stránku, knihu aj.).
+
+**
+
+*Pozn.*: Pokud se obrázek cituje jako kapitola knihy či webová stránka (tedy typ Kapitola knihy či Webová stránka), formát se píše do pole Extra ve tvaru medium: obraz; rytina
+
+
+
+Takto citovat by se mělo jen v případech, kdy je autor obrázku jiný než autor zdrojového dokumentu, jehož je obrázek součástí.
+
+**
+
+
 
 ...............................................................................................................................................
 
