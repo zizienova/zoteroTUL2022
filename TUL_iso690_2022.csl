@@ -19,7 +19,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>Style based on ČSN ISO 690:2022</summary>
-    <updated>2023-04-21T05:45:43+00:00</updated>
+    <updated>2023-05-04T03:54:56+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
@@ -223,7 +223,14 @@
       <else-if type="paper-conference speech chapter" match="any">
         <group delimiter=". ">
           <text variable="title"/>
-          <text macro="medium-online"/>
+          <choose>
+            <if match="any" variable="DOI URL">
+              <text macro="medium-online"/>
+            </if>
+            <else-if match="any" variable="medium">
+              <text variable="medium"/>
+            </else-if>
+          </choose>
           <text term="in" text-case="capitalize-first" suffix=": "/>
         </group>
         <choose>
@@ -933,7 +940,8 @@
                 <group>
                   <choose>
                     <if match="any" variable="archivovano">
-                      <text variable="publisher" prefix="Archivní kopie dostupná z: " suffix=" (distributor), "/>
+                      <text value="Archivní kopie dostupná z: "/>
+                      <text variable="publisher" suffix=" (distributor), "/>
                       <text variable="URL" font-style="normal" text-decoration="underline" suffix=". "/>
                       <text variable="archivovano" prefix="[archivováno " suffix="]"/>
                     </if>
