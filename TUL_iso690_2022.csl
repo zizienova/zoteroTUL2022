@@ -1017,7 +1017,7 @@
             <text variable="title"/>
             <text variable="container-title" font-style="italic" prefix="In: "/>
             <group delimiter=", ">
-              <text variable="volume" prefix="částka "/>
+              <text variable="volume" prefix="Částka "/>
               <text variable="page" prefix="s. "/>
             </group>
             <text macro="isbn"/>
