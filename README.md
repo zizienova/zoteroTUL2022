@@ -6,7 +6,7 @@ Citační styl pro Technickou univerzitu v Liberci, dle ČSN ISO 690:2022 a Meto
 
 autor-datum (harvardský systém)
 
-<u>Fungují tyto druhy citací (stav ke dni 2023-04-20)</u>:
+<u>Fungují tyto druhy citací (stav ke dni 2023-05-04)</u>:
 
 - Kniha - tištěná a elektronická
 
@@ -82,7 +82,7 @@ ORCID: [ORCID](https://orcid.org/0000-0002-8612-0470)
 
 Instituce: [České vysoké učení technické v Praze, Fakulta elektrotechnická](https://fel.cvut.cz/cs)
 
-Datum výroby: od 2023-03 do <mark>?</mark>
+Datum výroby: od 2023-03 do 2023-05-04
 
 ###### Licence: [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 
