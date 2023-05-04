@@ -1,6 +1,6 @@
 # zoteroTUL2022
 
-Citační styl pro Technickou univerzitu v Liberci, dle ČSN ISO 690:2022 a Metodiky citování, 3. vyd.
+Citační styl pro Technickou univerzitu v Liberci, dle ČSN ISO 690:2022 a Metodiky citování, 3. vyd. (viz https://dspace.tul.cz/bitstream/handle/15240/169179/Metodika_citov%c3%a1n%c3%ad_20230419.pdf?sequence=1&isAllowed=y)
 
 <u>Typ citačního systému</u>:
 
@@ -88,7 +88,7 @@ Datum výroby: od 2023-03 do <mark>?</mark>
 
 **Použití:** pro Technickou univerzitu v Liberci
 
-**Důvod vzniku:** Zapracování citačního stylu pro Technickou univerzitu v Liberci dle *Metodiky citování, 3. vyd.*, z roku 2023, která vychází z normy ČSN ISO 690:2022.
+**Důvod vzniku:** Zapracování citačního stylu pro Technickou univerzitu v Liberci dle *Metodiky citování, 3. vyd.*, z roku 2023, která vychází z normy ČSN ISO 690:2022. *Metodika citování *je volně dostupná na adrese: https://dspace.tul.cz/bitstream/handle/15240/169179/Metodika_citov%c3%a1n%c3%ad_20230419.pdf?sequence=1&isAllowed=y
 
 **Poděkování:** Tento citační styl vychází z citačního stylu, jehož autory jsou Jiří Kratochvíl a Libor Ansorge a patří jim naše velké poděkování (http://www.zotero.org/styles/iso690-author-date-cs).
 
@@ -96,7 +96,7 @@ Datum výroby: od 2023-03 do <mark>?</mark>
 
 ### Jaké druhy dokumentů lze citovat:
 
-Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a které jsou definované v *Metodice citování, 3. vyd.* Jedná se o:
+Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a které jsou definované v *Metodice citování, 3. vyd.* (viz https://dspace.tul.cz/bitstream/handle/15240/169179/Metodika_citov%c3%a1n%c3%ad_20230419.pdf?sequence=1&isAllowed=y). Jedná se o:
 
 - knihy
 
@@ -168,8 +168,6 @@ Zotero nepracuje s hodinami, v bibliografických citacích příspěvků na soci
 
 Identifikátory, které nejsou v Zoteru definované (tedy ISAN, ISMN, ISRC, ISRN, ISWC a arXiv ID), je třeba psát do pole Extra ve tvaru ISAN: 478656576
 
-
-
 Pozor, identifikátor arXiv je nutné psát s velkými písmeny, tedy ARXIV a stále do pole Extra, např. ARXIV: 769986765647
 
 ##### Dostupnost:
@@ -208,7 +206,6 @@ Přístup se píše do pole Archiv.
 
 Formát se píše do pole Extra ve tvaru medium: webová kniha
 
-
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
 
 ...............................................................................................................................................
@@ -224,7 +221,6 @@ Přístup se píše do pole Archiv.
 ###### <u>Kapitola v elektronické knize</u>:
 
 Formát se píše do pole Extra ve tvaru medium: webová kniha
-
 
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
 
@@ -294,8 +290,6 @@ V případě, že je známo opusové číslo, píše se do pole Název za název
 
 Identifikátor ISMN se píše do pole Extra ve tvaru ISMN: 979787 
 
-
-
 Přístup se píše do pole Archiv.
 
 ...............................................................................................................................................
@@ -312,7 +306,6 @@ Autor mapy se píše do pole Kartograf.
 Do pole Měřítko se píše číselná hodnota či celá fráze o měřítku (měřítka různá).
 Číslo svazku edice se píše do pole Extra ve formátu collection-number: XXX
 Rozměr mapy se píše do pole Extra ve formátu rozmery: 30 cm × 42 cm
-
 
 Přístup se píše do pole Archiv.
 
@@ -360,19 +353,13 @@ Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné
 
 ISSN se píše do pole Extra ve tvaru ISSN: 1234-6789
 
-
-
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
-
-
 
 Vydání či verze se píší do pole Extra ve tvaru edition: Version 5.
 
 <u>**Pro archivovaný web**</u>:
 
 Datum archivace se píše do pole Extra ve tvaru archivovano: 2023-05-31
-
-
 
 Distributor se píše do pole Extra ve tvaru publisher: Internet Archive
 
@@ -388,19 +375,13 @@ Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné
 
 ISSN se píše do pole Extra ve tvaru ISSN: 1234-6789
 
-
-
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
-
-
 
 Vydání či verze se píší do pole Extra ve tvaru edition: Version 5.
 
 <u><strong>Pro archivovanou webovou stránku</strong></u>:
 
 Datum archivace se píše do pole Extra ve tvaru archivovano: 2023-05-31
-
-
 
 Distributor se píše do pole Extra ve tvaru publisher: Internet Archive
 
@@ -419,8 +400,6 @@ V harvardském systému je celé datum uvedené za názvem mailu.
 Používejte typ položky „Příspěvek ve fóru“ (typ položky „Příspěvek v blogu“ by měl fungovat stejně).
 
 Pokud je k dispozici jméno autora, píše se do pole Autor, v tom případě nick autora se píše do pole Extra ve tvaru nick: @ochranceprav
-
-
 
 Pokud není k dispozici jméno autora, pak se do pole Autor píše nick v [ ].
 
@@ -506,8 +485,6 @@ Typ zdroje se píše do pole Médium.
 
 Místo konání rozhovoru se píše do pole Extra ve tvaru publisher-place: Liberec
 
-
-
 Případný pořadatel rozhovoru se píše do pole Extra ve tvaru publisher: Marta Zizienová
 
 ...............................................................................................................................................
@@ -530,13 +507,9 @@ Pokud je obrázek součástí článku, knihy, webové stránky atp. a jeho auto
 
 *Pozn.*: Pokud se obrázek cituje jako kapitola knihy či webová stránka (tedy typ Kapitola knihy či Webová stránka), formát se píše do pole Extra ve tvaru medium: obraz; rytina
 
-
-
 Takto citovat by se mělo jen v případech, kdy je autor obrázku jiný než autor zdrojového dokumentu, jehož je obrázek součástí.
 
 **
-
-
 
 ...............................................................................................................................................
 
