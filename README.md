@@ -2,55 +2,61 @@
 
 Citační styl pro Technickou univerzitu v Liberci, dle ČSN ISO 690:2022 a Metodiky citování, 3. vyd. (viz https://dspace.tul.cz/bitstream/handle/15240/169179/Metodika_citov%c3%a1n%c3%ad_20230419.pdf?sequence=1&isAllowed=y)
 
-<u>Typ citačního systému</u>:
 
-autor-datum (harvardský systém)
 
-<u>Fungují tyto druhy citací (stav ke dni 2023-05-04)</u>:
+<u>Typy citačních systémů</u>:
 
-- Kniha - tištěná a elektronická
+- autor-datum (harvardský systém) - v názvu označen zkratkou *ad*
 
-- Kapitola z knihy - tištěná a elektronická
+- číselný systém - v názvu označen zkratkou *num*
 
-- Článek z časopisu - tištěný a elektronický
 
-- Kvalifikační práce - tištěná a elektronická
 
-- Legislativa - tištěná a elektronická
+<u>Lze citovat následující druhy informačních zdrojů (stav ke dni 2023-05-05)</u>:
 
-- Norma - tištěná a elektronická
+1. Kniha - tištěná a elektronická
 
-- Notový záznam - tištěný
+2. Kapitola z knihy - tištěná a elektronická
 
-- Mapa - tištěná a elektronická
+3. Článek z časopisu - tištěný a elektronický
 
-- Patent - elektronický
+4. Kvalifikační práce - tištěná a elektronická
 
-- Poster z konference - elektronický
+5. Legislativa - tištěná a elektronická
 
-- Web
+6. Norma - tištěná a elektronická
 
-- Webová stránka
+7. Notový záznam - tištěný
 
-- E-mail
+8. Mapa - tištěná a elektronická
 
-- Příspěvek na sociální síti
+9. Patent - elektronický
 
-- Video
+10. Poster z konference - elektronický
 
-- Dataset
+11. Web
 
-- Software
+12. Webová stránka
 
-- Přednáška
+13. E-mail
 
-- Rozhovor
+14. Příspěvek na sociální síti
 
-- Obrázek - fyzický i elektronický
+15. Video
 
-- Článek v encyklopedii, záznam ve slovníku, entry (typ, co by měl být přidán při aktualizaci Zotera na verzi 7), pozn.: tyto dokumenty nejsou definované v Metodice citování.
+16. Dataset
 
-Vzorové záznamy jsou dostupné na: [vzorove-dokumenty v Zoteru](https://www.zotero.org/groups/5035724/vzorove_dokumenty/library).
+17. Software
+
+18. Přednáška
+
+19. Rozhovor
+
+20. Obrázek - fyzický i elektronický
+
+21. Článek v encyklopedii, záznam ve slovníku, entry (typ, co by měl být přidán při aktualizaci Zotera na verzi 7), pozn.: tyto dokumenty nejsou definované v Metodice citování.
+
+Vzorové záznamy jsou dostupné ve: [vzorove-dokumenty v Zoteru](https://www.zotero.org/groups/5035724/vzorove_dokumenty/library) viz https://www.zotero.org/groups/5035724/vzorove_dokumenty/library
 
 =============================================================
 
@@ -74,6 +80,8 @@ Adresa: Technická univerzita v Liberci, Univerzitní knihovna
 
 E-mail: [marta.zizienova@tul.cz](mailto:marta.zizienova@tul.cz)
 
+
+
 ###### Autor 2:
 
 Jméno autora: Adam Zizien
@@ -82,7 +90,9 @@ ORCID: [ORCID](https://orcid.org/0000-0002-8612-0470)
 
 Instituce: [České vysoké učení technické v Praze, Fakulta elektrotechnická](https://fel.cvut.cz/cs)
 
-Datum výroby: od 2023-03 do 2023-05-04
+Datum výroby: od 2023-03 do 2023-05-05
+
+
 
 ###### Licence: [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 
@@ -93,6 +103,8 @@ Datum výroby: od 2023-03 do 2023-05-04
 **Poděkování:** Tento citační styl vychází z citačního stylu, jehož autory jsou Jiří Kratochvíl a Libor Ansorge a patří jim naše velké poděkování (http://www.zotero.org/styles/iso690-author-date-cs).
 
 =====================================================================
+
+
 
 ### Jaké druhy dokumentů lze citovat:
 
@@ -142,7 +154,9 @@ Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a 
 
 ==================================================================
 
-### Pro jaké druhy dokumentů (typy položek) není styl upraven:
+
+
+### Pro jaké druhy dokumentů není styl upraven:
 
 Pro následující dokumenty není citační styl nastaven, citace bude vytvořena, ale nemusí odpovídat pravidlům: 
 
@@ -151,6 +165,8 @@ Pro následující dokumenty není citační styl nastaven, citace bude vytvoře
 V případě, že potřebujete citovat některý z těchto druhů, pak aplikujte princip, že citace by měly dodržovat stejná pravidla a měly by vypadat podobně. Lze použít také některý z připravených druhů dokumentů (viz Jaké druhy dokumentů lze citovat).
 
 ======================================================================
+
+
 
 ### Co citační styl neumí a je tedy nutné upravovat ručně:
 
@@ -172,7 +188,7 @@ Pozor, identifikátor arXiv je nutné psát s velkými písmeny, tedy ARXIV a st
 
 ##### Dostupnost:
 
-Distributor je použit jen u webů a webových stránek.
+Distributor je použit jen u některých typů dokumentů.
 
 ##### Mapy:
 
@@ -190,13 +206,15 @@ Souběžný název, abstrakt, krátký název, práva, signaturu a další údaj
 
 =======================================================================
 
+
+
 ### Specifika jednotlivých druhů dokumentů:
 
 Pokud u jednotlivých dokumentů nejsou nějaká pole zmíněná, pak to znamená, že vychází z *Metodiky citování, 3. vyd.*  a jejich název odpovídá vzorům v této metodice.
 
 ##### <u>Kniha</u>:
 
-Používejte typ položky „Kniha“. 
+Používejte typ položky „*Kniha*“. 
 
 Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
@@ -208,11 +226,13 @@ Formát se píše do pole Extra ve tvaru medium: webová kniha
 
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
 
+
+
 ...............................................................................................................................................
 
 ##### <u>Kapitola v knize</u>:
 
-Používejte typ položky „Kapitola knihy“. 
+Používejte typ položky „*Kapitola knihy*“. 
 
 Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
@@ -224,21 +244,25 @@ Formát se píše do pole Extra ve tvaru medium: webová kniha
 
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano
 
+
+
 ...............................................................................................................................................
 
 ##### <u>Článek</u>:
 
-Používejte typ položky „Článek v časopise“ nebo „Článek v novinách“ nebo „Preprint“ (typ „Článek v magazínu“ by měl fungovat stejně). Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „*Článek v časopise*“ nebo „*Článek v novinách*“ nebo „*Preprint*“ (typ „*Článek v magazínu*“ by měl fungovat stejně). Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Přístup se píše do pole Archiv. Pozor při stahování článků z Medviku a pod., v tom případě je třeba údaje v poli Archiv vymazat.
 
 *Upozornění*: U cizojazyčných článků se používá česká terminologie (roč. a č.), terminologie v jazyce článku (vol., no aj.) není aplikována.
 
+
+
 ...............................................................................................................................................
 
 ##### <u>Kvalifikační práce</u>:
 
-Používejte typ položky „Vysokoškolská kvalifikační práce“. 
+Používejte typ položky „*Vysokoškolská kvalifikační práce*“. 
 
 Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
@@ -246,11 +270,13 @@ Druh kvalifikační práce se píše do pole Typ.
 
 Knihovna a signatura se píší do pole Archiv, ideálně ve tvaru Knihovna X, signatura Y.
 
+
+
 ...............................................................................................................................................
 
 ##### <u>Legislativa (zákon, vyhláška, věstník)</u>:
 
-Používejte typ položky „Nařízení“. 
+Používejte typ položky „*Nařízení*“. 
 
 Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
@@ -260,11 +286,13 @@ Stát a případně orgán státní správy se píše do pole Autor do Příjmen
 
 ISSN nebo ISBN nebo DOI se píše do pole Extra ve tvaru ISSN: 1234-5678.
 
+
+
 ...............................................................................................................................................
 
 ##### <u>Norma</u>:
 
-Používejte typ položky „Standardní“. 
+Používejte typ položky „*Standardní*“. 
 
 Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
@@ -276,13 +304,17 @@ Do pole Status lze zapsat poznámky k platnosti (zrušeno aj.).
 
 Do pole Extra lze napsat poznámky k dostupnosti (paywall atd.).
 
-*Upozornění*: Toto je nový typ dokumentu, který by měl být přidaný do Zotera ve verzi 7. Pokud ho v nabídce nemáte, pak doporučuji stáhnout si beta verzi Zotera (z https://www.zotero.org/support/beta_builds, nejlépe zip, tedy lokální spuštění). Staženou beta verzi spustit a pak by měla být i v normálním Zoteru položka Standardní. Beta verzi je následně možné smazat. Jinak je možné použít typ položky „Zpráva“.
+
+
+*<mark>Upozornění*:</mark> Toto je nový typ dokumentu, který by měl být přidaný do Zotera ve verzi 7. Pokud ho v nabídce nemáte, pak doporučuji stáhnout si beta verzi Zotera (z https://www.zotero.org/support/beta_builds, nejlépe zip, tedy lokální spuštění). Staženou beta verzi spustit a pak by měla být i v normálním Zoteru položka Standardní. Beta verzi je následně možné smazat. Jinak je možné použít typ položky „*Zpráva*“.
+
+
 
 ...............................................................................................................................................
 
 ##### <u>Notový záznam</u>:
 
-Používejte typ položky „Kniha“, (cituje se stejně jako kniha). 
+Používejte typ položky „*Kniha*“, (cituje se stejně jako kniha). 
 
 Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
@@ -292,11 +324,13 @@ Identifikátor ISMN se píše do pole Extra ve tvaru ISMN: 979787
 
 Přístup se píše do pole Archiv.
 
+
+
 ...............................................................................................................................................
 
 ##### <u>Mapa</u>:
 
-Používejte typ položky „Mapa“. 
+Používejte typ položky „*Mapa*“. 
 
 Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
@@ -313,11 +347,13 @@ Přístup se píše do pole Archiv.
 
 Formát mapy (např. satelitní mapa) se píše do pole Typ.
 
+
+
 ...............................................................................................................................................
 
 ##### <u>Patent</u>:
 
-Používejte typ položky „Patent“.
+Používejte typ položky „*Patent*“.
 
 Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
@@ -325,15 +361,15 @@ Zotero nepracuje s poli Pověřený a Země. Majitele patentu, který se stahuje
 Role autora je vyjádřena spojením (vynálezce/vynálezci).
 Pořadí jmen vynálezců je schodné jako u editorů, tedy i první vynálezce je v invertované podobě.
 
-*Tip*: Údaje o patentech se nejlépe stahují z Google Patents (https://patents.google.com/), většinou je nutná pouze oprava jmen osob. 
+*<mark>Tip</mark>*: Údaje o patentech se nejlépe stahují z Google Patents (https://patents.google.com/), většinou je nutná pouze oprava jmen osob. 
+
+
 
 ...............................................................................................................................................
 
 ##### <u>Elektronický poster z konference</u>:
 
-Týká se posterů z konferencí a dalších příspěvků, které jsou přednesené na konferenci, ale nejsou publikované ve sborníku. Publikované postery či příspěvky se citují dle vzoru pro článek.
-
-Používejte typ položky „Konferenční příspěvek“.
+Používejte typ položky „*Konferenční příspěvek*“.
 
 Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
@@ -341,13 +377,17 @@ Datum konání konference je ve formátu DD-MM-RRRR.
 
 Formát se píše do pole Extra ve tvaru medium: poster
 
+*<mark>Pozn.</mark>*: Týká se posterů z konferencí a dalších příspěvků, které jsou přednesené na konferenci, ale nejsou publikované ve sborníku. Publikované postery či příspěvky se citují dle vzoru pro článek.
+
+
+
 ...............................................................................................................................................
 
 ##### <u>Web</u>:
 
-Jako web je míněn souhrn webových stránek se stejnou doménou, tedy např. všechny stránky spadající pod web Technické univerzity v Liberci **[https://www.tul.cz](https://www.tul.cz)**. V bibliografické citaci je tento souhrn vyjádřen termínem „webové sídlo“.
+*<mark>Pozn.</mark>*: Jako web je míněn souhrn webových stránek se stejnou doménou, tedy např. všechny stránky spadající pod web Technické univerzity v Liberci **[https://www.tul.cz](https://www.tul.cz)**. V bibliografické citaci je tento souhrn vyjádřen termínem „webové sídlo“.
 
-Používejte typ položky „Webová stránka“.
+Používejte typ položky „*Webová stránka*“.
 
 Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
@@ -363,13 +403,15 @@ Datum archivace se píše do pole Extra ve tvaru archivovano: 2023-05-31
 
 Distributor se píše do pole Extra ve tvaru publisher: Internet Archive
 
+
+
 ...............................................................................................................................................
 
 ##### <u>Webová stránka</u>:
 
-Jako webová stránka je míněna jedna konkrétní online stránka. V bibliografické citaci je tento souhrn vyjádřen termínem „online“.
+*<mark>Pozn.</mark>*: Jako webová stránka je míněna jedna konkrétní online stránka. V bibliografické citaci je tento souhrn vyjádřen termínem „online“.
 
-Používejte typ položky „Webová stránka“.
+Používejte typ položky „*Webová stránka*“.
 
 Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
@@ -385,19 +427,23 @@ Datum archivace se píše do pole Extra ve tvaru archivovano: 2023-05-31
 
 Distributor se píše do pole Extra ve tvaru publisher: Internet Archive
 
+
+
 ...............................................................................................................................................
 
 ##### <u>E-mail</u>:
 
-Používejte typ položky „E-mail“ (položky „Dopis“ a „Zpráva IM“ fungují stejně).
+Používejte typ položky „*E-mail*“ (položky „*Dopis*“ a „*Zpráva IM*“ fungují stejně).
 
 V harvardském systému je celé datum uvedené za názvem mailu.
+
+
 
 ...............................................................................................................................................
 
 ##### <u>Příspěvek na sociální síti</u>:
 
-Používejte typ položky „Příspěvek ve fóru“ (typ položky „Příspěvek v blogu“ by měl fungovat stejně).
+Používejte typ položky „*Příspěvek ve fóru*“ (typ položky „*Příspěvek v blogu*“ by měl fungovat stejně).
 
 Pokud je k dispozici jméno autora, píše se do pole Autor, v tom případě nick autora se píše do pole Extra ve tvaru nick: @ochranceprav
 
@@ -407,11 +453,13 @@ Název sociální sítě se píše do pole Název fóra.
 
 Zotero nepracuje s přesným časem, stačí jen celé datum publikování příspěvku.
 
+
+
 ...............................................................................................................................................
 
 ##### <u>Video</u>:
 
-Používejte typ položky „Video nahrávka“.  (Typ položky Film funguje stejně, Video nahrávka má víc možností.) 
+Používejte typ položky „*Video nahrávka*“.  (Typ položky „*Film*“ funguje stejně, „*Video nahrávka*“ má víc možností.) 
 
 Role režiséra je v bibliografické citaci označena slovem (režie). 
 
@@ -425,11 +473,13 @@ V případě videí na online platformách se do pole Archiv píše název platf
 
 Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí být příznak ve tvaru cele-datum: ano.
 
+
+
 ...............................................................................................................................................
 
 ##### <u>Dataset</u>:
 
-Používejte typ položky „Dataset“. 
+Používejte typ položky „*Dataset*“. 
 
 Vydání či verze se píší do pole Verze. 
 
@@ -437,13 +487,15 @@ Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí b�
 
 Systémové požadavky či velikost souboru lze zapsat na nový řádek do pole Extra a budou vloženy na konec bibliografické citace.
 
-*Upozornění*: Toto je nový typ dokumentu, který by měl být přidaný do Zotera ve verzi 7. Pokud ho v nabídce nemáte, pak doporučuji stáhnout si beta verzi Zotera (z https://www.zotero.org/support/beta_builds, nejlépe zip, tedy lokální spuštění). Staženou beta verzi spustit a pak by měla být i v normálním Zoteru položka Dataset. Beta verzi je následně možné smazat.
+*<mark>Upozornění</mark>*: Toto je nový typ dokumentu, který by měl být přidaný do Zotera ve verzi 7. Pokud ho v nabídce nemáte, pak doporučuji stáhnout si beta verzi Zotera (z https://www.zotero.org/support/beta_builds, nejlépe zip, tedy lokální spuštění). Staženou beta verzi spustit a pak by měla být i v normálním Zoteru položka Dataset. Beta verzi je následně možné smazat.
+
+
 
 ...............................................................................................................................................
 
 ##### <u>Software</u>:
 
-Používejte typ položky „Software“.
+Používejte typ položky „*Software*“.
 
 Formát souboru se píše do pole Extra ve tvaru genre: program
 
@@ -457,11 +509,13 @@ Systémové požadavky se píší do pole Systém.
 
 Velikost souboru lze zapsat na nový řádek do pole Extra a bude vložen na konec bibliografické citace.
 
+
+
 ...............................................................................................................................................
 
 ##### <u>Přednáška</u>:
 
-Používejte typ položky „Prezentace“.
+Používejte typ položky „*Prezentace*“.
 
 Lektoři se píší do pole Prezentující.
 
@@ -471,11 +525,13 @@ Celé datum se píše do pole Datum. Zotero nepracuje s časem, v citaci bude po
 
 Pořadatel se píše do pole Extra ve tvaru publisher: Technická univerzita v Liberci
 
+
+
 ...............................................................................................................................................
 
 ##### <u>Rozhovor</u>:
 
-Používejte typ položky „Rozhovor“.
+Používejte typ položky „*Rozhovor*“.
 
 Účastníci rozhovoru se píší do pole Rozhovor s.
 
@@ -487,11 +543,13 @@ Místo konání rozhovoru se píše do pole Extra ve tvaru publisher-place: Libe
 
 Případný pořadatel rozhovoru se píše do pole Extra ve tvaru publisher: Marta Zizienová
 
+
+
 ...............................................................................................................................................
 
 ##### <u>Obrázek</u>:
 
-Používejte typ položky „Umělecké dílo“.
+Používejte typ položky „*Umělecké dílo*“.
 
 Formát se píše do pole Médium.
 
@@ -499,24 +557,22 @@ Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí b�
 
 Zdrojová databáze či název galerie se píše do pole Katalog knihovny.
 
-*Pozn.*: Tento typ používejte pouze pro samostatné obrázky na Internetu (z databází typu Wikimedia Commons, Europeana, Flickr aj.) či pro fyzická umělecká díla v galeriích apod.
+*<mark>Pozn. 1</mark>*: Tento typ používejte pouze pro samostatné obrázky na Internetu (z databází typu Wikimedia Commons, Europeana, Flickr aj.) či pro fyzická umělecká díla v galeriích apod.
 
 Pokud je obrázek součástí článku, knihy, webové stránky atp. a jeho autoři jsou stejní, jako autoři dotyčného dokumentu, pak citujte jen ten dotyčný dokument (tedy článek, webovou stránku, knihu aj.).
 
-**
-
-*Pozn.*: Pokud se obrázek cituje jako kapitola knihy či webová stránka (tedy typ Kapitola knihy či Webová stránka), formát se píše do pole Extra ve tvaru medium: obraz; rytina
+*<mark>Pozn. 2</mark>*: Pokud se obrázek cituje jako kapitola knihy či webová stránka (tedy typ Kapitola knihy či Webová stránka), formát se píše do pole Extra ve tvaru medium: obraz; rytina
 
 Takto citovat by se mělo jen v případech, kdy je autor obrázku jiný než autor zdrojového dokumentu, jehož je obrázek součástí.
 
-**
+
 
 ...............................................................................................................................................
 
 ##### **<u>Článek v encyklopedii, záznam ve slovníku, entry</u>**:
 
-Typy položek „článek v encyklopedii“, „záznam ve slovníku“ a připravovaný typ položky „entry“.
+Typy položek „*Článek v encyklopedii*“, „*Záznam ve slovníku*“ a připravovaný typ položky „*Entry*“.
 
 Tento dyp dokumentu nemá definovaný vzor v Metodice citování. Patří sem hesla a termíny z encyklopedií či tezaurů (Wikipedie, MeSH, Ottův slovník naučný, Britannica Dictionary aj.).
 
-*Pozn.*: Kdyby náhodou měl záznam DOI, což se výjimečně stává, tak do pole URL uveďte https://doi.org/ s dotyčným číslem DOI (např. https://doi.org/10.1036/1097-8542.YB150959). Samotné DOI pak už nikam nezapisujte.
+*<mark>Pozn.</mark>*: Kdyby náhodou měl záznam DOI, což se výjimečně stává, tak do pole URL uveďte https://doi.org/ s dotyčným číslem DOI (např. https://doi.org/10.1036/1097-8542.YB150959). Samotné DOI pak už nikam nezapisujte.
