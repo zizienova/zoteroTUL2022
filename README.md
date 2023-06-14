@@ -202,7 +202,7 @@ Mapová edice a předmětná oblast nejsou do stylu zapracovány.
 
 Zotero nepracuje s poli Pověřený a Země. Majitele patentu, který se stahuje do pole Pověřený, je třeba okopírovat do pole Přispěvatel. Kód z pole Země je třeba okopírovat do pole Místo.
 Role autora je vyjádřena spojením (vynálezce/vynálezci).
-Pořadí jmen vynálezců je schodné jako u editorů, tedy i první vynálezce je v invertované podobě. 
+Pořadí jmen vynálezců je shodné jako u editorů, tedy i první vynálezce je v invertované podobě. 
 
 ##### Další údaje, které se budou ukládat při stahování metadat:
 
@@ -254,7 +254,9 @@ Pokud je k dispozici celé datum, píše se do pole Datum; v poli Extra musí b�
 
 ##### <u>Článek</u>:
 
-Používejte typ položky „*Článek v časopise*“ nebo „*Článek v novinách*“ nebo „*Preprint*“ (typ „*Článek v magazínu*“ by měl fungovat stejně). Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
+Používejte typ položky „*Článek v časopise*“ nebo „*Článek v novinách*“ nebo „*Preprint*“ (typ „*Článek v magazínu*“ by měl fungovat stejně). 
+
+Dodržujte všechna pravidla viz sekce Co citační styl neumí a je tedy nutné upravovat ručně.
 
 Přístup se píše do pole Archiv. Pozor při stahování článků z Medviku a pod., v tom případě je třeba údaje v poli Archiv vymazat.
 
@@ -413,7 +415,7 @@ Distributor se píše do pole Extra ve tvaru publisher: Internet Archive
 
 ##### <u>Webová stránka</u>:
 
-*<mark>Pozn.</mark>*: Jako webová stránka je míněna jedna konkrétní online stránka. V bibliografické citaci je tento souhrn vyjádřen termínem „online“.
+*<mark>Pozn.</mark>*: Jako webová stránka je míněna jedna konkrétní online stránka. V bibliografické citaci je tato jedna strana vyjádřena termínem „online“.
 
 Používejte typ položky „*Webová stránka*“.
 
