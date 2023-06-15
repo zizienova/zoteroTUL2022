@@ -104,7 +104,7 @@ Datum výroby: od 2023-03 do 2023-05-05
 
 **Použití:** pro Technickou univerzitu v Liberci
 
-**Důvod vzniku:** Zapracování citačního stylu pro Technickou univerzitu v Liberci dle *Metodiky citování, 3. vyd.*, z roku 2023, která vychází z normy ČSN ISO 690:2022. *Metodika citování *je volně dostupná na adrese: https://dspace.tul.cz/bitstream/handle/15240/169179/Metodika_citov%c3%a1n%c3%ad_20230419.pdf?sequence=1&isAllowed=y
+**Důvod vzniku:** Zapracování citačního stylu pro Technickou univerzitu v Liberci dle *Metodiky citování, 3. vyd.*, z roku 2023, která vychází z normy ČSN ISO 690:2022. *Metodika citování *je volně dostupná na adrese: https://publi.cz/books/2636/index.html#Cover
 
 **Poděkování:** Tento citační styl vychází z citačního stylu, jehož autory jsou Jiří Kratochvíl a Libor Ansorge a patří jim naše velké poděkování (http://www.zotero.org/styles/iso690-author-date-cs).
 
