@@ -1,6 +1,6 @@
 # zoteroTUL2022
 
-Citační styl pro Technickou univerzitu v Liberci, dle ČSN ISO 690:2022 a Metodiky citování, 3. vyd. (viz https://dspace.tul.cz/bitstream/handle/15240/169179/Metodika_citov%c3%a1n%c3%ad_20230419.pdf?sequence=1&isAllowed=y)
+Citační styl pro Technickou univerzitu v Liberci, dle ČSN ISO 690:2022 a Metodiky citování, 3. vyd. (viz https://publi.cz/books/2636/index.html#Cover)
 
 ## Návod na instalaci viz:
 https://github.com/zizienova/zoteroTUL2022/releases
