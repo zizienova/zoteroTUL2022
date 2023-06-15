@@ -114,7 +114,7 @@ Datum výroby: od 2023-03 do 2023-05-05
 
 ### Jaké druhy dokumentů lze citovat:
 
-Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a které jsou definované v *Metodice citování, 3. vyd.* (viz https://dspace.tul.cz/bitstream/handle/15240/169179/Metodika_citov%c3%a1n%c3%ad_20230419.pdf?sequence=1&isAllowed=y). Jedná se o:
+Styl je upraven pro typy dokumentů, které nejčastěji citují studenti TUL a které jsou definované v *Metodice citování, 3. vyd.* (viz https://publi.cz/books/2636/index.html#Cover). Jedná se o:
 
 - knihy
 
