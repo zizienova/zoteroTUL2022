@@ -5,6 +5,8 @@ Citační styl pro Technickou univerzitu v Liberci, dle ČSN ISO 690:2022 a Meto
 ## Návod na instalaci viz:
 https://github.com/zizienova/zoteroTUL2022/releases
 
+(Pokud píšete Vaši práci v angličtině, využijte anglickou verzi z https://github.com/zizienova/zoteroTULeng2022.)
+
 
 =============================================================
 
